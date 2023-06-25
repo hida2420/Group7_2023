@@ -19,7 +19,7 @@ namespace WinFormsApp1
     //https://github.com/pfnet/chainer/tree/master/examples/ptb
     class Sample10
     {
-        const int N_EPOCH = 39;
+        const int N_EPOCH = 10;
         const int N_UNITS = 650;
         const int BATCH_SIZE = 20;
         const int BPROP_LEN = 35;

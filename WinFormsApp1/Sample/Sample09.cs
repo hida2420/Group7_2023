@@ -43,6 +43,11 @@ namespace WinFormsApp1
             int[] trainData = vocabulary.LoadData(trainPath);
             int[] testData = vocabulary.LoadData(testPath);
 
+            foreach(int t in testData)
+            {
+                Debug.WriteLine(t);
+            }
+
             int nVocab = vocabulary.Length;
 
             Debug.WriteLine("Done.");

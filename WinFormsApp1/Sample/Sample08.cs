@@ -35,6 +35,11 @@ namespace WinFormsApp1
             DataMaker dataMaker = new DataMaker(STEPS_PER_CYCLE, NUMBER_OF_CYCLES);
             NdArray<Real> trainData = dataMaker.Make();
 
+            foreach(Real d in trainData.Data)
+            {
+                Debug.WriteLine(d);
+            }
+
             //ネットワークの構成は FunctionStack に書き連ねる
             FunctionStack<Real> model = new FunctionStack<Real>(
                 new Linear<Real>(1, 5, name: "Linear l1"),
@@ -64,11 +69,17 @@ namespace WinFormsApp1
                 }
             }
 
+            //学習の終わったネットワークを保存
+            ModelIO<Real>.Save(model, "時系列で予測.nn");
+
+            //学習の終わったネットワークを読み込み
+            FunctionStack<Real> model_saved = (FunctionStack<float>)ModelIO<Real>.Load("時系列で予測.nn");
+
             Debug.WriteLine("Testing...");
             NdArray<Real>[] testSequences = dataMaker.MakeMiniBatch(trainData, MINI_BATCH_SIZE, LENGTH_OF_SEQUENCE);
 
             int sample_index = 45;
-            predict(testSequences[sample_index], model, PREDICTION_LENGTH);
+            predict(testSequences[sample_index], model_saved, PREDICTION_LENGTH);
         }
 
         static Real ComputeLoss(FunctionStack<Real> model, NdArray<Real>[] sequences)
