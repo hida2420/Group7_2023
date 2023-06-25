@@ -1,5 +1,9 @@
 using Microsoft.ML;
 using Microsoft.ML.Data;
+using KelpNet.CL;
+using System.Diagnostics;
+using KelpNet.Tools;
+using KelpNet.CL.Common;
 
 
 
@@ -7,6 +11,8 @@ namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
+
+
         public Form1()
         {
             InitializeComponent();
@@ -43,15 +49,15 @@ namespace WinFormsApp1
             VBuffer<ReadOnlyMemory<char>> value = default;
             col.Value.Annotations.GetValue("TrainingLabelValues", ref value);
 
-            label1.Text += (result.Score[0] * 100) + "％\nの確率でひだどりだね。\n";
+            label1.Text += (result.Score[0] * 100) + "％\nの確率であってるわ\n";
             
             if(result.Score[0] >= 0.5)
             {
-                label1.Text += "多分それひだどりだわ。";
+                label1.Text += "多分あってるわ。";
             }
             else 
             {
-                label1.Text += "多分ひだどりじゃない";
+                label1.Text += "多分あってない";
             }
 
             //Load sample data
@@ -92,6 +98,20 @@ namespace WinFormsApp1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            Thread thread = new Thread(new ThreadStart(() =>
+            {
+                Sample08.Run();
+            }));
+            thread.Start();
+            label1.Text = "";
+            label1.Text += "解析中なう\n";
+            thread.Join();
+            
         }
     }
 }

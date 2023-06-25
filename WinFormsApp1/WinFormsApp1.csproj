@@ -16,6 +16,39 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="KelpNet.CL.Common">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.CL.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.CL.Function">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.CL.Function.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.CL.Function.Double">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.CL.Function.Double.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.Common">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.Function">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.Function.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.Function.Double">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.Function.Double.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.Tests">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.Tools">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="KelpNet.Tools.Double">
+      <HintPath>C:\Users\ひかる\Downloads\KelpNet.Tools.Double.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>C:\Users\ひかる\Downloads\protobuf-net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
