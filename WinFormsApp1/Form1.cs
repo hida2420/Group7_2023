@@ -50,12 +50,12 @@ namespace WinFormsApp1
             col.Value.Annotations.GetValue("TrainingLabelValues", ref value);
 
             label1.Text += (result.Score[0] * 100) + "％\nの確率であってるわ\n";
-            
-            if(result.Score[0] >= 0.5)
+
+            if (result.Score[0] >= 0.5)
             {
                 label1.Text += "多分あってるわ。";
             }
-            else 
+            else
             {
                 label1.Text += "多分あってない";
             }
@@ -102,7 +102,6 @@ namespace WinFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-
             Thread thread = new Thread(new ThreadStart(() =>
             {
                 Sample08.Run();
@@ -111,7 +110,31 @@ namespace WinFormsApp1
             label1.Text = "";
             label1.Text += "解析中なう\n";
             thread.Join();
-            
+            label1.Text = "";
+            label1.Text += "解析終了";
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Bitmap image = new Bitmap("201902020000.vis.01.fld.geoss.png");
+            int x = 158;    // 左上隅のx座標
+            int y = 84;    // 左上隅のy座標
+            int width = 1759;    // 切り取る領域の幅
+            int height = 1759;   // 切り取る領域の高さ
+
+            double zeroPercentage = 0;
+
+            Thread thread = new Thread(new ThreadStart(() =>
+            {
+                zeroPercentage = ImageProcessing.CalculateZeroPercentage(image, x, y, width, height);
+            }));
+            thread.Start();
+            label1.Text = "";
+            label1.Text += "解析中なう\n";
+            thread.Join();
+            label1.Text = "";
+            label1.Text += "雲の割合は\n" + zeroPercentage + "%\nだったぜ";
         }
     }
 }
