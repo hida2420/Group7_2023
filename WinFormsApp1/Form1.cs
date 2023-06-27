@@ -123,18 +123,58 @@ namespace WinFormsApp1
             int width = 1759;    // 切り取る領域の幅
             int height = 1759;   // 切り取る領域の高さ
 
-            double zeroPercentage = 0;
+            List<double> cloudPercentages = new List<double>();
+            List<Bitmap> images = new List<Bitmap>();
 
             Thread thread = new Thread(new ThreadStart(() =>
             {
-                zeroPercentage = ImageProcessing.CalculateZeroPercentage(image, x, y, width, height);
+                string baseDirectory = "VIS01";
+                string format = "yyyyMM";
+
+                DateTime startDate = new DateTime(2019, 1, 1);
+                DateTime endDate = new DateTime(2023, 3, 1);
+
+                DateTime currentDate = startDate;
+
+                while (currentDate <= endDate)
+                {
+                    string folderName = currentDate.ToString(format) + "\\";
+                    string folderPath = Path.Combine(baseDirectory, folderName);
+
+                    Debug.WriteLine(folderPath);
+
+                    if (Directory.Exists(folderPath))
+                    {
+                        List<Bitmap> images = ImageProcessing.LoadImagesFromDirectory(folderPath);
+
+                        //読み込まれた画像の数を表示
+                        Debug.WriteLine($"読み込まれた画像の数 ({folderName}): {images.Count}");
+
+                        foreach (Bitmap img in images)
+                        {
+                            double cloudPercentage = ImageProcessing.CalculateCloudPercentage(img, x, y, width, height);
+                            cloudPercentages.Add(cloudPercentage);
+                            Debug.WriteLine(cloudPercentage);
+                        }
+
+                        //次の月に進む
+                        currentDate = currentDate.AddMonths(1);
+                    }
+                    else
+                    {
+                        //フォルダが存在しない場合はスキップして次の月に進む
+                        currentDate = currentDate.AddMonths(1);
+                        continue;
+                    }
+                }
+
             }));
             thread.Start();
             label1.Text = "";
             label1.Text += "解析中なう\n";
             thread.Join();
-            label1.Text = "";
-            label1.Text += "雲の割合は\n" + zeroPercentage + "%\nだったぜ";
+            label1.Text = "解析終了\n";
+            //label1.Text += "雲の割合は\n" + zeroPercentage + "%\nだったぜ";
         }
     }
 }
