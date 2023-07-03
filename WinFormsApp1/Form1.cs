@@ -117,7 +117,7 @@ namespace WinFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Bitmap image = new Bitmap("201902020000.vis.01.fld.geoss.png");
+            //Bitmap image = new Bitmap("201902020000.vis.01.fld.geoss.png");
             int x = 158;    // 左上隅のx座標
             int y = 84;    // 左上隅のy座標
             int width = 1759;    // 切り取る領域の幅
@@ -167,6 +167,16 @@ namespace WinFormsApp1
                         continue;
                     }
                 }
+
+                string filePath = "list_data.bin";
+
+                ListConversion.SaveDoubleListAsSingleFile(cloudPercentages, filePath);
+                List<System.Single> percentages = ListConversion.LoadListFromSingleFile(filePath);
+
+                Debug.WriteLine("解析が終わりました。");
+                foreach (System.Single cp in percentages)
+                    Debug.WriteLine(cp);
+
 
             }));
             thread.Start();
