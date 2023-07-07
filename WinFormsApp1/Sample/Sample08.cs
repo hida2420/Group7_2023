@@ -177,7 +177,7 @@ namespace WinFormsApp1
                         result.Data[j + i * this.stepsPerCycle] = Math.Sin(j * 2 * Math.PI / this.stepsPerCycle);
                     }
                 }
-
+                //
                 return result;
             }
 
