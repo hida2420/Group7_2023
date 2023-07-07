@@ -24,7 +24,7 @@ namespace WinFormsApp1
             {
                 if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    textBox1.Text = openFileDialog1.FileName;
+                    //textBox1.Text = openFileDialog1.FileName;
                 }
             }
         }
@@ -89,33 +89,13 @@ namespace WinFormsApp1
             //Load sample data
             var sampleData = new MLModel1.ModelInput()
             {
-                ImageSource = textBox1.Text,
+                //ImageSource = textBox1.Text,
             };
             //Load model and predict output
             return MLModel1.Predict(sampleData);
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Thread thread = new Thread(new ThreadStart(() =>
-            {
-                Sample08.Run();
-            }));
-            thread.Start();
-            label1.Text = "";
-            label1.Text += "解析中なう\n";
-            thread.Join();
-            label1.Text = "";
-            label1.Text += "解析終了";
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
             //Bitmap image = new Bitmap("201902020000.vis.01.fld.geoss.png");
             int x = 158;    // 左上隅のx座標
@@ -131,7 +111,7 @@ namespace WinFormsApp1
                 string baseDirectory = "VIS01";
                 string format = "yyyyMM";
 
-                DateTime startDate = new DateTime(2019, 1, 1);
+                DateTime startDate = new DateTime(2017, 1, 1);
                 DateTime endDate = new DateTime(2023, 3, 1);
 
                 DateTime currentDate = startDate;
@@ -155,6 +135,13 @@ namespace WinFormsApp1
                             double cloudPercentage = ImageProcessing.CalculateCloudPercentage(img, x, y, width, height);
                             cloudPercentages.Add(cloudPercentage);
                             Debug.WriteLine(cloudPercentage);
+                            string filePath = "list_data.bin";
+                            ListConversion.SaveDoubleListAsSingleFile(cloudPercentages, filePath);
+                            List<System.Single> percentages = ListConversion.LoadListFromSingleFile(filePath);
+                            Debug.WriteLine("----------------------");
+                            foreach(System.Single p in percentages)
+                                Debug.WriteLine(p);
+                            Debug.WriteLine("----------------------");
                         }
 
                         //次の月に進む
@@ -168,13 +155,14 @@ namespace WinFormsApp1
                     }
                 }
 
-                string filePath = "list_data.bin";
+                string filePath2 = "list_data.bin";
 
-                ListConversion.SaveDoubleListAsSingleFile(cloudPercentages, filePath);
-                List<System.Single> percentages = ListConversion.LoadListFromSingleFile(filePath);
+                //VIS01\201802\まで保存した
+                ListConversion.SaveDoubleListAsSingleFile(cloudPercentages, filePath2);
+                List<System.Single> percentages2 = ListConversion.LoadListFromSingleFile(filePath2);
 
                 Debug.WriteLine("解析が終わりました。");
-                foreach (System.Single cp in percentages)
+                foreach (System.Single cp in percentages2)
                     Debug.WriteLine(cp);
 
 
@@ -185,6 +173,23 @@ namespace WinFormsApp1
             thread.Join();
             label1.Text = "解析終了\n";
             //label1.Text += "雲の割合は\n" + zeroPercentage + "%\nだったぜ";
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            string filePath = "list_data.bin";
+            List<System.Single> percentages = ListConversion.LoadListFromSingleFile(filePath);
+
+            Thread thread = new Thread(new ThreadStart(() =>
+            {
+                Sample08.Run(percentages);
+            }));
+            thread.Start();
+            label1.Text = "";
+            label1.Text += "解析中なう\n";
+            thread.Join();
+            label1.Text = "";
+            label1.Text += "解析終了";
         }
     }
 }

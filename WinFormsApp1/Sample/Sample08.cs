@@ -30,10 +30,10 @@ namespace WinFormsApp1
         const int DISPLAY_EPOCH = 1;
         const int PREDICTION_LENGTH = 75;
 
-        public static void Run()
+        public static void Run(List<Real> input)
         {
             DataMaker dataMaker = new DataMaker(STEPS_PER_CYCLE, NUMBER_OF_CYCLES);
-            NdArray<Real> trainData = dataMaker.Make();
+            NdArray<Real> trainData = dataMaker.InputData(input);
 
             foreach(Real d in trainData.Data)
             {
@@ -161,6 +161,11 @@ namespace WinFormsApp1
                 this.numberOfCycles = numberOfCycles;
             }
 
+            public DataMaker()
+            {
+
+            }
+
             public NdArray<Real> Make()
             {
                 NdArray<Real> result = new NdArray<Real>(this.stepsPerCycle * this.numberOfCycles);
@@ -171,6 +176,18 @@ namespace WinFormsApp1
                     {
                         result.Data[j + i * this.stepsPerCycle] = Math.Sin(j * 2 * Math.PI / this.stepsPerCycle);
                     }
+                }
+
+                return result;
+            }
+
+            public NdArray<Real> InputData(List<System.Single> input)
+            {
+                NdArray<Real> result = new NdArray<Real>(input.Count);
+
+                for (int i = 0; i < input.Count; i++)
+                {
+                    result.Data[i] = input[i];
                 }
 
                 return result;
