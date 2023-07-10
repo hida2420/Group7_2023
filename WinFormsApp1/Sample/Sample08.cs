@@ -23,12 +23,34 @@ namespace WinFormsApp1
         const int STEPS_PER_CYCLE = 50;
         const int NUMBER_OF_CYCLES = 100;
 
-        const int TRAINING_EPOCHS = 1000;
+        const int TRAINING_EPOCHS = 60000;
         const int MINI_BATCH_SIZE = 100;
         const int LENGTH_OF_SEQUENCE = 100;
 
         const int DISPLAY_EPOCH = 1;
         const int PREDICTION_LENGTH = 75;
+
+        public static void RunPredict(List<Real> input, Real data1, Real data2, Real data3)
+        {
+            DataMaker dataMaker = new DataMaker(STEPS_PER_CYCLE, NUMBER_OF_CYCLES);
+            NdArray<Real> trainData = dataMaker.InputData(input);
+            //学習の終わったネットワークを読み込み
+            FunctionStack<Real> model_saved = (FunctionStack<float>)ModelIO<Real>.Load("時系列で予測.nn");
+
+            Debug.WriteLine("Testing...");
+            //NdArray<Real>[] testSequences = dataMaker.MakePredictData(data1, data2, data3);
+            NdArray<Real>[] testSequences = dataMaker.MakeMiniBatch(trainData, MINI_BATCH_SIZE, LENGTH_OF_SEQUENCE);
+
+            Debug.WriteLine("-------------テストデータ--------------------");
+            int sample_index = 0;
+            Debug.Write("[");
+            foreach (Real d in testSequences[sample_index].Data)
+            {
+                Debug.Write(d + "   ");
+            }
+            Debug.WriteLine("]\n");
+            predict(testSequences[sample_index], model_saved, PREDICTION_LENGTH);
+        }
 
         public static void Run(List<Real> input)
         {
@@ -107,6 +129,7 @@ namespace WinFormsApp1
 
         static void predict(NdArray<Real> seq, FunctionStack<Real> model, int pre_length)
         {
+            //四分の１のサイズを予測データとして出力
             Real[] pre_input_seq = new Real[seq.Data.Length / 4];
             if (pre_input_seq.Length < 1)
             {
@@ -128,12 +151,13 @@ namespace WinFormsApp1
                 output_seq.Add(future);
             }
 
+            Debug.WriteLine("------------出力-----------------");
             for (int i = 0; i < output_seq.Count; i++)
             {
-                Debug.WriteLine(output_seq[i]);
+                Debug.Write(output_seq[i] + ", ");
             }
 
-            Debug.WriteLine(seq);
+            Debug.WriteLine("\n" + seq);
         }
 
         static Real predict_sequence(FunctionStack<Real> model, List<Real> input_seq)
@@ -208,6 +232,17 @@ namespace WinFormsApp1
                     }
 
                 }
+
+                return result;
+            }
+
+            public NdArray<Real>[] MakePredictData(Real data1, Real data2, Real data3)
+            {
+                NdArray<Real>[] result = new NdArray<Real>[1];
+                result[0] = new NdArray<Real>(3);
+                result[0].Data[0] = data1;
+                result[0].Data[1] = data2;
+                result[0].Data[2] = data3;
 
                 return result;
             }

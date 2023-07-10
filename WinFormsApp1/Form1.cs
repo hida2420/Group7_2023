@@ -182,7 +182,8 @@ namespace WinFormsApp1
 
             Thread thread = new Thread(new ThreadStart(() =>
             {
-                Sample08.Run(percentages);
+                Sample08.RunPredict(percentages, 1, 1, 1);
+                //Sample08.RunPredict(percentages, percentages[0], percentages[1], percentages[2]);
             }));
             thread.Start();
             label1.Text = "";
