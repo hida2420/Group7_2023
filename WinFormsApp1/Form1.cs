@@ -100,11 +100,13 @@ namespace WinFormsApp1
 
         }
 
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             Thread thread = new Thread(new ThreadStart(() =>
             {
-                Sample08.Run();
+                Sample08.CallModel();
             }));
             thread.Start();
             label1.Text = "";

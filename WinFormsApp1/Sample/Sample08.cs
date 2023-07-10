@@ -39,6 +39,7 @@ namespace WinFormsApp1
             {
                 Debug.WriteLine(d);
             }
+            Debug.WriteLine("データ数：" + trainData.Data.Length);
 
             //ネットワークの構成は FunctionStack に書き連ねる
             FunctionStack<Real> model = new FunctionStack<Real>(
@@ -79,6 +80,23 @@ namespace WinFormsApp1
             NdArray<Real>[] testSequences = dataMaker.MakeMiniBatch(trainData, MINI_BATCH_SIZE, LENGTH_OF_SEQUENCE);
 
             int sample_index = 45;
+            predict(testSequences[sample_index], model_saved, PREDICTION_LENGTH);
+        }
+
+        public static void CallModel()
+        {
+            DataMaker dataMaker = new DataMaker(STEPS_PER_CYCLE, NUMBER_OF_CYCLES);
+            NdArray<Real> trainData = dataMaker.Make();
+
+
+            //学習の終わったネットワークを読み込み
+            FunctionStack<Real> model_saved = (FunctionStack<float>)ModelIO<Real>.Load("時系列で予測.nn");
+
+            Debug.WriteLine("Testing...");
+            NdArray<Real>[] testSequences = dataMaker.MakeMiniBatch(trainData, MINI_BATCH_SIZE, LENGTH_OF_SEQUENCE);
+
+            int sample_index = 45;
+            Debug.WriteLine("予測する対象：" + testSequences[45]);
             predict(testSequences[sample_index], model_saved, PREDICTION_LENGTH);
         }
 
@@ -128,10 +146,10 @@ namespace WinFormsApp1
                 output_seq.Add(future);
             }
 
-            for (int i = 0; i < output_seq.Count; i++)
+            /*for (int i = 0; i < output_seq.Count; i++)
             {
                 Debug.WriteLine(output_seq[i]);
-            }
+            }*/
 
             Debug.WriteLine(seq);
         }
