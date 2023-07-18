@@ -15,11 +15,77 @@ namespace WinFormsApp1
         #region model input class
         public class ModelInput
         {
-            [ColumnName(@"Label")]
-            public string Label { get; set; }
+            [ColumnName(@"col0")]
+            public string Col0 { get; set; }
 
-            [ColumnName(@"ImageSource")]
-            public string ImageSource { get; set; }
+            [ColumnName(@"col1")]
+            public float Col1 { get; set; }
+
+            [ColumnName(@"col2")]
+            public string Col2 { get; set; }
+
+            [ColumnName(@"col3")]
+            public string Col3 { get; set; }
+
+            [ColumnName(@"col4")]
+            public float Col4 { get; set; }
+
+            [ColumnName(@"col5")]
+            public float Col5 { get; set; }
+
+            [ColumnName(@"col6")]
+            public float Col6 { get; set; }
+
+            [ColumnName(@"col7")]
+            public float Col7 { get; set; }
+
+            [ColumnName(@"col8")]
+            public float Col8 { get; set; }
+
+            [ColumnName(@"col9")]
+            public float Col9 { get; set; }
+
+            [ColumnName(@"col10")]
+            public float Col10 { get; set; }
+
+            [ColumnName(@"col11")]
+            public float Col11 { get; set; }
+
+            [ColumnName(@"col12")]
+            public float Col12 { get; set; }
+
+            [ColumnName(@"col13")]
+            public float Col13 { get; set; }
+
+            [ColumnName(@"col14")]
+            public float Col14 { get; set; }
+
+            [ColumnName(@"col15")]
+            public float Col15 { get; set; }
+
+            [ColumnName(@"col16")]
+            public float Col16 { get; set; }
+
+            [ColumnName(@"col17")]
+            public float Col17 { get; set; }
+
+            [ColumnName(@"col18")]
+            public float Col18 { get; set; }
+
+            [ColumnName(@"col19")]
+            public float Col19 { get; set; }
+
+            [ColumnName(@"col20")]
+            public string Col20 { get; set; }
+
+            [ColumnName(@"col21")]
+            public float Col21 { get; set; }
+
+            [ColumnName(@"col22")]
+            public string Col22 { get; set; }
+
+            [ColumnName(@"col23")]
+            public string Col23 { get; set; }
 
         }
 

@@ -23,23 +23,37 @@ namespace WinFormsApp1
         const int STEPS_PER_CYCLE = 50;
         const int NUMBER_OF_CYCLES = 100;
 
-        const int TRAINING_EPOCHS = 1000;
+        const int TRAINING_EPOCHS = 60000;
         const int MINI_BATCH_SIZE = 100;
         const int LENGTH_OF_SEQUENCE = 100;
 
         const int DISPLAY_EPOCH = 1;
-        const int PREDICTION_LENGTH = 75;
+        //予測時出力されるリストの長さ
+        //一ヶ月分は194
+        const int PREDICTION_LENGTH = 194;
 
-        public static void Run()
+        public static void RunPredict(List<Real> input)
         {
             DataMaker dataMaker = new DataMaker(STEPS_PER_CYCLE, NUMBER_OF_CYCLES);
-            NdArray<Real> trainData = dataMaker.Make();
+
+            //学習の終わったネットワークを読み込み
+            FunctionStack<Real> model_saved = (FunctionStack<float>)ModelIO<Real>.Load("時系列で予測.nn");
+
+            Debug.WriteLine("予測中...");
+            NdArray<Real>[] testSequences = dataMaker.MakePredictData(0, input);
+
+            predict(testSequences[0], model_saved, PREDICTION_LENGTH);
+        }
+
+        public static void Run(List<Real> input)
+        {
+            DataMaker dataMaker = new DataMaker(STEPS_PER_CYCLE, NUMBER_OF_CYCLES);
+            NdArray<Real> trainData = dataMaker.InputData(input);
 
             foreach(Real d in trainData.Data)
             {
                 Debug.WriteLine(d);
             }
-            Debug.WriteLine("データ数：" + trainData.Data.Length);
 
             //ネットワークの構成は FunctionStack に書き連ねる
             FunctionStack<Real> model = new FunctionStack<Real>(
@@ -83,23 +97,6 @@ namespace WinFormsApp1
             predict(testSequences[sample_index], model_saved, PREDICTION_LENGTH);
         }
 
-        public static void CallModel()
-        {
-            DataMaker dataMaker = new DataMaker(STEPS_PER_CYCLE, NUMBER_OF_CYCLES);
-            NdArray<Real> trainData = dataMaker.Make();
-
-
-            //学習の終わったネットワークを読み込み
-            FunctionStack<Real> model_saved = (FunctionStack<float>)ModelIO<Real>.Load("時系列で予測.nn");
-
-            Debug.WriteLine("Testing...");
-            NdArray<Real>[] testSequences = dataMaker.MakeMiniBatch(trainData, MINI_BATCH_SIZE, LENGTH_OF_SEQUENCE);
-
-            int sample_index = 45;
-            Debug.WriteLine("予測する対象：" + testSequences[45]);
-            predict(testSequences[sample_index], model_saved, PREDICTION_LENGTH);
-        }
-
         static Real ComputeLoss(FunctionStack<Real> model, NdArray<Real>[] sequences)
         {
             //全体での誤差を集計
@@ -125,47 +122,57 @@ namespace WinFormsApp1
 
         static void predict(NdArray<Real> seq, FunctionStack<Real> model, int pre_length)
         {
-            Real[] pre_input_seq = new Real[seq.Data.Length / 4];
+ 
+            Real[] pre_input_seq = new Real[seq.Data.Length];
             if (pre_input_seq.Length < 1)
             {
                 pre_input_seq = new Real[1];
             }
             Array.Copy(seq.Data, pre_input_seq, pre_input_seq.Length);
 
+            //入力した雲量データをListに変換
             List<Real> input_seq = new List<Real>();
             input_seq.AddRange(pre_input_seq);
 
-            List<Real> output_seq = new List<Real>();
-            output_seq.Add(input_seq[input_seq.Count - 1]);
+            //次の月の雲量を予測
+            List<Real> nextMonth = predict_sequence(model, input_seq);
 
-            for (int i = 0; i < pre_length; i++)
+            Debug.WriteLine("------------出力-----------------");
+            Debug.WriteLine("入力した雲量データ:");
+            for (int i = 0; i < pre_input_seq.Length; i++)
             {
-                Real future = predict_sequence(model, input_seq);
-                input_seq.RemoveAt(0);
-                input_seq.Add(future);
-                output_seq.Add(future);
+                Debug.Write(pre_input_seq[i] + ", ");
+            }
+            Debug.WriteLine("\n");
+            Debug.WriteLine("出力された雲量データ:");
+            for (int i = 0; i < nextMonth.Count; i++)
+            {
+                Debug.Write(nextMonth[i] + ", ");
             }
 
-            /*for (int i = 0; i < output_seq.Count; i++)
-            {
-                Debug.WriteLine(output_seq[i]);
-            }*/
-
-            Debug.WriteLine(seq);
+            Debug.WriteLine("\n");
         }
 
-        static Real predict_sequence(FunctionStack<Real> model, List<Real> input_seq)
+        static List<Real> predict_sequence(FunctionStack<Real> model, List<Real> input_seq)
         {
             model.ResetState();
 
-            NdArray<Real> result = 0;
+            List<Real> pred_all = new List<Real>();
 
             for (int i = 0; i < input_seq.Count; i++)
             {
-                result = model.Predict(input_seq[i])[0];
+                NdArray<Real>[] pred = model.Predict(input_seq[i]);
+                pred_all.Add(pred[0].Data[0]);
             }
 
-            return result.Data[0];
+            Debug.WriteLine("pred:");
+            for (int j = 0; j < pred_all.Count; j++)
+            {
+                Debug.Write(pred_all[j] + ", ");
+            }
+            Debug.WriteLine("\n");
+
+            return pred_all;
         }
 
         class DataMaker
@@ -179,6 +186,11 @@ namespace WinFormsApp1
                 this.numberOfCycles = numberOfCycles;
             }
 
+            public DataMaker()
+            {
+
+            }
+
             public NdArray<Real> Make()
             {
                 NdArray<Real> result = new NdArray<Real>(this.stepsPerCycle * this.numberOfCycles);
@@ -189,6 +201,18 @@ namespace WinFormsApp1
                     {
                         result.Data[j + i * this.stepsPerCycle] = Math.Sin(j * 2 * Math.PI / this.stepsPerCycle);
                     }
+                }
+                //
+                return result;
+            }
+
+            public NdArray<Real> InputData(List<System.Single> input)
+            {
+                NdArray<Real> result = new NdArray<Real>(input.Count);
+
+                for (int i = 0; i < input.Count; i++)
+                {
+                    result.Data[i] = input[i];
                 }
 
                 return result;
@@ -209,6 +233,20 @@ namespace WinFormsApp1
                     }
 
                 }
+
+                return result;
+            }
+
+            //予測用データの作成
+            //startIndex:予測に用いる一ヶ月分のデータを取り出し始める位置
+            public NdArray<Real>[] MakePredictData(int startIndex, List<Real> input)
+            {
+                NdArray<Real>[] result = new NdArray<Real>[1];
+                result[0] = new NdArray<Real>(PREDICTION_LENGTH);
+                Debug.WriteLine(input.Count);
+
+                for(int i = startIndex; i < PREDICTION_LENGTH; i++)
+                    result[0].Data[i] = input[i];
 
                 return result;
             }

@@ -69,8 +69,7 @@ namespace WinFormsApp1
 
             //指定されたディレクトリ内の画像ファイルを取得
             string[] imageFiles = Directory.GetFiles(directoryPath, "*.png");
-            string[] imageFiles2 = Directory.GetFiles(directoryPath, "201907010000.vis.01.fld.geoss.png");
-            foreach (string file in imageFiles2) { Debug.WriteLine(file); }
+
             foreach (string imageFile in imageFiles)
             {
                 try

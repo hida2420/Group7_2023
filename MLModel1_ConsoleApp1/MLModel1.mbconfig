@@ -1,0 +1,2110 @@
+﻿{
+  "TrainingTime": 25000,
+  "Scenario": "Classification",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "X:\\WiiU\\programs\\WinFormsApp1\\WinFormsApp1\\bin\\Debug\\net6.0-windows\\20902574f01a3ae4 (1).csv",
+    "Delimiter": ",",
+    "DecimalMarker": ".",
+    "HasHeader": false,
+    "ColumnProperties": [
+      {
+        "ColumnName": "col0",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col1",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col2",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col3",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col4",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col5",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col6",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col7",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col8",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col9",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col10",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col11",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col12",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col13",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col14",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col15",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col16",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col17",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col18",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col19",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col20",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col21",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col22",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      },
+      {
+        "ColumnName": "col23",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 1
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 0,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 4.65500020980835
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.069314482189484813,
+        "RuntimeInSeconds": 4.6279997825622559
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.23441670866698638,
+        "RuntimeInSeconds": 78.0459976196289
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.069314482189484813,
+        "RuntimeInSeconds": 71.067001342773438
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.30078931854729379,
+        "RuntimeInSeconds": 147.36500549316406
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.26540365183134884,
+        "RuntimeInSeconds": 12.430000305175781
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.274334179917916,
+        "RuntimeInSeconds": 21.080999374389648
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.24418409157708432,
+        "RuntimeInSeconds": 13.822999954223633
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.26971833753353136,
+        "RuntimeInSeconds": 7.8159999847412109
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.29024558068885808,
+        "RuntimeInSeconds": 29.125999450683594
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 2.0680000782012939
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.300146751280772,
+        "RuntimeInSeconds": 22.148000717163086
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27235181219076648,
+        "RuntimeInSeconds": 2.4760000705718994
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.27970884986749728,
+        "RuntimeInSeconds": 38.323001861572266
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.13655200170321918,
+        "RuntimeInSeconds": 1.7359999418258667
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.069314482189484813,
+        "RuntimeInSeconds": 76.1050033569336
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30971559068313592,
+        "RuntimeInSeconds": 23.902999877929688
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 7.7030000686645508
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.20830425549888981,
+        "RuntimeInSeconds": 18.131999969482422
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.28105017259313664,
+        "RuntimeInSeconds": 250.83399963378906
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.31655793862189929,
+        "RuntimeInSeconds": 3.0239999294281006
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.24585564657680509,
+        "RuntimeInSeconds": 5.9670000076293945
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.24908448090532617,
+        "RuntimeInSeconds": 2.51200008392334
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 3.5669999122619629
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.2220005458484228,
+        "RuntimeInSeconds": 2.6919999122619629
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.25319750325697143,
+        "RuntimeInSeconds": 19.329000473022461
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.29445769867002575,
+        "RuntimeInSeconds": 287.22299194335938
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.22212448678400043,
+        "RuntimeInSeconds": 1.7339999675750732
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.22535029323561334,
+        "RuntimeInSeconds": 1.9700000286102295
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 3.7030000686645508
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 77.782997131347656
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.069314482189484813,
+        "RuntimeInSeconds": 79.6050033569336
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.1989038816900226,
+        "RuntimeInSeconds": 3.1889998912811279
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.2637655351452039,
+        "RuntimeInSeconds": 2.2390000820159912
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.21158504111031246,
+        "RuntimeInSeconds": 3.0880000591278076
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.24411043530471085,
+        "RuntimeInSeconds": 2.4149999618530273
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.23800600511754802,
+        "RuntimeInSeconds": 314.66900634765625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.27968144328323091,
+        "RuntimeInSeconds": 3.0710000991821289
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33716868718375331,
+        "RuntimeInSeconds": 6.934999942779541
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33656357622055727,
+        "RuntimeInSeconds": 9.5959997177124023
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 5.6830000877380371
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 8.8559999465942383
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.2993617779507155,
+        "RuntimeInSeconds": 347.32598876953125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.261493368077463,
+        "RuntimeInSeconds": 2.9279999732971191
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26829267240582022,
+        "RuntimeInSeconds": 4.5859999656677246
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 35.252998352050781
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26081054452090785,
+        "RuntimeInSeconds": 3.3340001106262207
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.2593691939235182,
+        "RuntimeInSeconds": 3.4110000133514404
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.28240083179860964,
+        "RuntimeInSeconds": 4.23199987411499
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27097539665831194,
+        "RuntimeInSeconds": 4.3179998397827148
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 7.310999870300293
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.20550488969105132,
+        "RuntimeInSeconds": 5.86299991607666
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.25571973809375548,
+        "RuntimeInSeconds": 77.842002868652344
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.274234139629005,
+        "RuntimeInSeconds": 15.848999977111816
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 3.8320000171661377
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.26485013232332894,
+        "RuntimeInSeconds": 23.850000381469727
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.29944956727772631,
+        "RuntimeInSeconds": 403.74398803710938
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26616726594210416,
+        "RuntimeInSeconds": 3.3280000686645508
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.24767970096453432,
+        "RuntimeInSeconds": 10.098999977111816
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 4.6700000762939453
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35319514584445433,
+        "RuntimeInSeconds": 16.865999221801758
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 7.4109997749328613
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.22332886180574602,
+        "RuntimeInSeconds": 87.353996276855469
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.24881754639593234,
+        "RuntimeInSeconds": 406.68701171875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.24067368475459947,
+        "RuntimeInSeconds": 453.8900146484375
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.2427514638275273,
+        "RuntimeInSeconds": 89.331001281738281
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 51.601001739501953
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.27618613450320095,
+        "RuntimeInSeconds": 17.413999557495117
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30002172766428725,
+        "RuntimeInSeconds": 40.5099983215332
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.25029291224805739,
+        "RuntimeInSeconds": 3.8259999752044678
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.22744139054410195,
+        "RuntimeInSeconds": 11.489999771118164
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.28110114885897552,
+        "RuntimeInSeconds": 30.431999206542969
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.24978565069240868,
+        "RuntimeInSeconds": 494.60400390625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.34889215089918563,
+        "RuntimeInSeconds": 18.663999557495117
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26537341774743511,
+        "RuntimeInSeconds": 5.5970001220703125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.069314482189484813,
+        "RuntimeInSeconds": 93.688003540039063
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 3.2799999713897705
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.28485429705568016,
+        "RuntimeInSeconds": 5.1779999732971191
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 8.92300033569336
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27317236635528169,
+        "RuntimeInSeconds": 6.1350002288818359
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.27922871646516273,
+        "RuntimeInSeconds": 186.83200073242188
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.2934275738737388,
+        "RuntimeInSeconds": 36.432998657226563
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27597735331630763,
+        "RuntimeInSeconds": 4.6939997673034668
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.27050158427606369,
+        "RuntimeInSeconds": 30.267999649047852
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 20.493000030517578
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.27011910065153716,
+        "RuntimeInSeconds": 20.572999954223633
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.23333403778918291,
+        "RuntimeInSeconds": 68.445999145507813
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.28214597987192358,
+        "RuntimeInSeconds": 108.19599914550781
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.29791679082789263,
+        "RuntimeInSeconds": 45.873001098632813
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.3125492402720037,
+        "RuntimeInSeconds": 25.271999359130859
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.29642917729465584,
+        "RuntimeInSeconds": 129.77900695800781
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 12.866000175476074
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 5.4600000381469727
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.33140890335182194,
+        "RuntimeInSeconds": 581.52099609375
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.1758186388693696,
+        "RuntimeInSeconds": 36.6150016784668
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.28982744569292429,
+        "RuntimeInSeconds": 126.40399932861328
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.26378974806893007,
+        "RuntimeInSeconds": 52.443000793457031
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.25263885062340746,
+        "RuntimeInSeconds": 4.0960001945495605
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 4.6760001182556152
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.20724042348897251,
+        "RuntimeInSeconds": 581.02801513671875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.28970999988762258,
+        "RuntimeInSeconds": 41.395000457763672
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.3007770033816124,
+        "RuntimeInSeconds": 149.79499816894531
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 3.1970000267028809
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.25963156369356072,
+        "RuntimeInSeconds": 13.954999923706055
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27164792755135669,
+        "RuntimeInSeconds": 6.8540000915527344
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27570354584610546,
+        "RuntimeInSeconds": 6.1020002365112305
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.27021621983451155,
+        "RuntimeInSeconds": 707.780029296875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 20.625999450683594
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.17946438421061073,
+        "RuntimeInSeconds": 37.903999328613281
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 5.6620001792907715
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.29188764104866849,
+        "RuntimeInSeconds": 300.54800415039063
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27529298866135476,
+        "RuntimeInSeconds": 5.310999870300293
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 6.5960001945495605
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30699785242504196,
+        "RuntimeInSeconds": 33.129001617431641
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.069314482189484813,
+        "RuntimeInSeconds": 97.94000244140625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.29947748882117065,
+        "RuntimeInSeconds": 743.3289794921875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.277202843512386,
+        "RuntimeInSeconds": 6.3280000686645508
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 3.9890000820159912
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27160564875915227,
+        "RuntimeInSeconds": 5.9200000762939453
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.265767531268176,
+        "RuntimeInSeconds": 6.1979999542236328
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.28674949488111057,
+        "RuntimeInSeconds": 21.521999359130859
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27097539665831194,
+        "RuntimeInSeconds": 5.625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.326280845234559,
+        "RuntimeInSeconds": 744.0479736328125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.28240083179860964,
+        "RuntimeInSeconds": 5.0789999961853027
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.20998840245485026,
+        "RuntimeInSeconds": 647.97998046875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.142801164115887,
+        "RuntimeInSeconds": 10.713000297546387
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.279274974417534,
+        "RuntimeInSeconds": 5.51800012588501
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.2792641519067115,
+        "RuntimeInSeconds": 5.8029999732971191
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.25287059687165786,
+        "RuntimeInSeconds": 802.58001708984375
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.32590657134672613,
+        "RuntimeInSeconds": 780.1309814453125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 16.753000259399414
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26796545060801019,
+        "RuntimeInSeconds": 5.75
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26890826748105962,
+        "RuntimeInSeconds": 5.8390002250671387
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.24536203577914772,
+        "RuntimeInSeconds": 777.14202880859375
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27260830775086731,
+        "RuntimeInSeconds": 5.6050000190734863
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26252427413742196,
+        "RuntimeInSeconds": 5.9380002021789551
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.33697900454537033,
+        "RuntimeInSeconds": 853.40899658203125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 7.4569997787475586
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30397739688849873,
+        "RuntimeInSeconds": 44.328998565673828
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33280651047190674,
+        "RuntimeInSeconds": 41.474998474121094
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.25022145154982073,
+        "RuntimeInSeconds": 11.307000160217285
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.28448392562401403,
+        "RuntimeInSeconds": 938.9229736328125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 17.299999237060547
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27594164108420072,
+        "RuntimeInSeconds": 5.7290000915527344
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27245933907248693,
+        "RuntimeInSeconds": 5.695000171661377
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27260830775086736,
+        "RuntimeInSeconds": 6.3189997673034668
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26966713128027908,
+        "RuntimeInSeconds": 6.2480001449584961
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27245933907248693,
+        "RuntimeInSeconds": 6.445000171661377
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26942903604218393,
+        "RuntimeInSeconds": 6.7090001106262207
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27300046461361249,
+        "RuntimeInSeconds": 6.3829998970031738
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27594164108420072,
+        "RuntimeInSeconds": 6.49399995803833
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.25705952798526133,
+        "RuntimeInSeconds": 15.142999649047852
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.31065329087611188,
+        "RuntimeInSeconds": 19.547000885009766
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.22804663788842219,
+        "RuntimeInSeconds": 820.59100341796875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27540051554307515,
+        "RuntimeInSeconds": 6.23199987411499
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.25679203327088124,
+        "RuntimeInSeconds": 871.406982421875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.25496443201875629,
+        "RuntimeInSeconds": 21.152999877929688
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 17.309999465942383
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26546545060801024,
+        "RuntimeInSeconds": 5.934999942779541
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27603076764391549,
+        "RuntimeInSeconds": 6.1869997978210449
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.27300046461361249,
+        "RuntimeInSeconds": 6.0850000381469727
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.28578797128534461,
+        "RuntimeInSeconds": 18.062000274658203
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.31549041674259193,
+        "RuntimeInSeconds": 29.089000701904297
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.256086138629519,
+        "RuntimeInSeconds": 29.811000823974609
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3494282138517158,
+        "RuntimeInSeconds": 15.324999809265137
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36207195081478716,
+        "RuntimeInSeconds": 22.221000671386719
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35731161750895424,
+        "RuntimeInSeconds": 24.693000793457031
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33624167735643012,
+        "RuntimeInSeconds": 19.937999725341797
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.32129883074448823,
+        "RuntimeInSeconds": 18.6200008392334
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33271490567114831,
+        "RuntimeInSeconds": 26.733999252319336
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.28991836551491812,
+        "RuntimeInSeconds": 26.25200080871582
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26912600573915357,
+        "RuntimeInSeconds": 6.5079998970031738
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 19.341999053955078
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26966713128027908,
+        "RuntimeInSeconds": 6.4210000038146973
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33445114855539881,
+        "RuntimeInSeconds": 23.097000122070313
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.31911243637793552,
+        "RuntimeInSeconds": 21.812000274658203
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.2965897333020604,
+        "RuntimeInSeconds": 18.979999542236328
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.30810832096538437,
+        "RuntimeInSeconds": 27.242000579833984
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.23932143274716608,
+        "RuntimeInSeconds": 16.822000503540039
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.2423479316203648,
+        "RuntimeInSeconds": 839.61798095703125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.30806178622245495,
+        "RuntimeInSeconds": 27.934000015258789
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.25800555755988186,
+        "RuntimeInSeconds": 17.427999496459961
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30989675010342577,
+        "RuntimeInSeconds": 39.2599983215332
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.28167824043648337,
+        "RuntimeInSeconds": 25.621999740600586
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.31695593271304168,
+        "RuntimeInSeconds": 24.323999404907227
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30072334262112044,
+        "RuntimeInSeconds": 30.458999633789063
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33142842333627887,
+        "RuntimeInSeconds": 17.806999206542969
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.32903692598258349,
+        "RuntimeInSeconds": 25.107999801635742
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.34700690897888053,
+        "RuntimeInSeconds": 20.427000045776367
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.30798846670846636,
+        "RuntimeInSeconds": 24.822999954223633
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30548367592695336,
+        "RuntimeInSeconds": 29.368999481201172
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.24913289194770211,
+        "RuntimeInSeconds": 919.718994140625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.296467549394739,
+        "RuntimeInSeconds": 29.159000396728516
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.24914485361882538,
+        "RuntimeInSeconds": 832.343017578125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35902324746247843,
+        "RuntimeInSeconds": 17.805000305175781
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35800959832826978,
+        "RuntimeInSeconds": 25.090999603271484
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3291904636362698,
+        "RuntimeInSeconds": 21.309000015258789
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33604823900448161,
+        "RuntimeInSeconds": 20.739999771118164
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3546946653169421,
+        "RuntimeInSeconds": 21.721000671386719
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35110804912507892,
+        "RuntimeInSeconds": 19.679000854492188
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3543916350139118,
+        "RuntimeInSeconds": 20.143999099731445
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3659280093672404,
+        "RuntimeInSeconds": 21.403999328613281
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35569397045013068,
+        "RuntimeInSeconds": 22.714000701904297
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36270220291562749,
+        "RuntimeInSeconds": 19.336000442504883
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36320946447127611,
+        "RuntimeInSeconds": 19.485000610351563
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.31157823563407377,
+        "RuntimeInSeconds": 22.200000762939453
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.27511776341883326,
+        "RuntimeInSeconds": 848.10797119140625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.31022365887665487,
+        "RuntimeInSeconds": 39.916000366210938
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.309234307260676,
+        "RuntimeInSeconds": 27.913999557495117
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3647244476072351,
+        "RuntimeInSeconds": 22.186000823974609
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3445871384352216,
+        "RuntimeInSeconds": 19.285999298095703
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35570272365563743,
+        "RuntimeInSeconds": 20.023000717163086
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.34348724686569054,
+        "RuntimeInSeconds": 22.525999069213867
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.368523563718013,
+        "RuntimeInSeconds": 19.13800048828125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36314763533694067,
+        "RuntimeInSeconds": 18.922000885009766
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35234145553111967,
+        "RuntimeInSeconds": 19.978000640869141
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.26501345162659951,
+        "RuntimeInSeconds": 167.343994140625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3711744102531761,
+        "RuntimeInSeconds": 17.562999725341797
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.29917094365181296,
+        "RuntimeInSeconds": 17.174999237060547
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.3125492402720037,
+        "RuntimeInSeconds": 34.237998962402344
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.335992946820091,
+        "RuntimeInSeconds": 17.929000854492188
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.34470160576232017,
+        "RuntimeInSeconds": 20.288999557495117
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35671721640926063,
+        "RuntimeInSeconds": 16.458999633789063
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.31648894723597853,
+        "RuntimeInSeconds": 20.499000549316406
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.30920519946308367,
+        "RuntimeInSeconds": 16.365999221801758
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.34098571000324734,
+        "RuntimeInSeconds": 18.284000396728516
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.32515391353235717,
+        "RuntimeInSeconds": 19.340000152587891
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36603637324450516,
+        "RuntimeInSeconds": 16.260000228881836
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36325680585207587,
+        "RuntimeInSeconds": 21.040000915527344
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.347610700649886,
+        "RuntimeInSeconds": 19.180999755859375
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.34221522192668274,
+        "RuntimeInSeconds": 23.559999465942383
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.31314447836724185,
+        "RuntimeInSeconds": 39.662998199462891
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35729052606842548,
+        "RuntimeInSeconds": 18.767999649047852
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.24634538104001535,
+        "RuntimeInSeconds": 922.7860107421875
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35345315289280022,
+        "RuntimeInSeconds": 16.062000274658203
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33937888784316189,
+        "RuntimeInSeconds": 14.604000091552734
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3430526115810017,
+        "RuntimeInSeconds": 22.716999053955078
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.18122750881529132,
+        "RuntimeInSeconds": 105.59500122070313
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.3704772730532751,
+        "RuntimeInSeconds": 19.579000473022461
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35698148941028396,
+        "RuntimeInSeconds": 18.003000259399414
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.327307623543711,
+        "RuntimeInSeconds": 18.724000930786133
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.31742062857362463,
+        "RuntimeInSeconds": 35.923999786376953
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.22933409688074854,
+        "RuntimeInSeconds": 115.16500091552734
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33588377630495581,
+        "RuntimeInSeconds": 18.405000686645508
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35103875133844742,
+        "RuntimeInSeconds": 19.938999176025391
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36379712475533105,
+        "RuntimeInSeconds": 18.850000381469727
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36327635619420684,
+        "RuntimeInSeconds": 20.194000244140625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.33898941547506983,
+        "RuntimeInSeconds": 20.099000930786133
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36037662152027866,
+        "RuntimeInSeconds": 19.740999221801758
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30205478824284737,
+        "RuntimeInSeconds": 40.069000244140625
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.35913077434419893,
+        "RuntimeInSeconds": 19.760000228881836
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.36454328818694526,
+        "RuntimeInSeconds": 19.363000869750977
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30699785242504196,
+        "RuntimeInSeconds": 32.251998901367188
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26652555219550228,
+        "RuntimeInSeconds": 6.3289999961853027
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.30218027027682287,
+        "RuntimeInSeconds": 1464.552001953125
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.22835595960138605,
+        "RuntimeInSeconds": 5.3730001449584961
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.31389855800881838,
+        "RuntimeInSeconds": 35.221000671386719
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.255597085947343,
+        "RuntimeInSeconds": 6.4650001525878906
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.18956084214862465,
+        "RuntimeInSeconds": 5.5999999046325684
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.3071013229857768,
+        "RuntimeInSeconds": 40.453998565673828
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.3206648353472431,
+        "RuntimeInSeconds": 39.16400146484375
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.32196395808189104,
+        "RuntimeInSeconds": 34.057998657226563
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30587583278969832,
+        "RuntimeInSeconds": 32.622001647949219
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.29435970625748409,
+        "RuntimeInSeconds": 37.438999176025391
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.2871416517438557,
+        "RuntimeInSeconds": 31.624000549316406
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.30699785242504196,
+        "RuntimeInSeconds": 45.495998382568359
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.28077801538021935,
+        "RuntimeInSeconds": 30.909999847412109
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.23866170475674356,
+        "RuntimeInSeconds": 5.7109999656677246
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.23717971900056423,
+        "RuntimeInSeconds": 5.7140002250671387
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaMaximumEntropyMulti",
+        "Score": 0.26396311449569965,
+        "RuntimeInSeconds": 6.9089999198913574
+      }
+    ],
+    "Pipeline": "[{\"EstimatorType\":\"ReplaceMissingValues\",\"Inputs\":[\"col1\",\"col4\",\"col5\",\"col6\",\"col7\",\"col8\",\"col9\",\"col10\",\"col11\",\"col12\",\"col13\",\"col14\",\"col15\",\"col16\",\"col17\",\"col18\",\"col19\",\"col21\"],\"Outputs\":[\"col1\",\"col4\",\"col5\",\"col6\",\"col7\",\"col8\",\"col9\",\"col10\",\"col11\",\"col12\",\"col13\",\"col14\",\"col15\",\"col16\",\"col17\",\"col18\",\"col19\",\"col21\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"col0\"],\"Outputs\":[\"col0\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"col3\"],\"Outputs\":[\"col3\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"col20\"],\"Outputs\":[\"col20\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"col22\"],\"Outputs\":[\"col22\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"col23\"],\"Outputs\":[\"col23\"]},{\"EstimatorType\":\"Concatenate\",\"Inputs\":[\"col1\",\"col4\",\"col5\",\"col6\",\"col7\",\"col8\",\"col9\",\"col10\",\"col11\",\"col12\",\"col13\",\"col14\",\"col15\",\"col16\",\"col17\",\"col18\",\"col19\",\"col21\",\"col0\",\"col3\",\"col20\",\"col22\",\"col23\"],\"Outputs\":[\"Features\"]},{\"EstimatorType\":\"MapValueToKey\",\"Inputs\":[\"col2\"],\"Outputs\":[\"col2\"]},{\"LabelColumnName\":\"col2\",\"FeatureColumnName\":\"Features\",\"NumberOfLeaves\":\"4\",\"MinimumExampleCountPerLeaf\":\"2\",\"LearningRate\":\"1\",\"NumberOfIterations\":\"74\",\"SubsampleFraction\":\"0.639610485576714\",\"FeatureFraction\":\"0.713545621707654\",\"L1Regularization\":\"9.98735359284971E-07\",\"L2Regularization\":\"47.9434834714179\",\"MaximumBinCountPerFeature\":\"64\",\"EstimatorType\":\"LightGbmMulti\",\"Inputs\":[\"col2\"],\"Outputs\":[\"Features\"]},{\"EstimatorType\":\"MapKeyToValue\",\"Inputs\":[\"PredictedLabel\"],\"Outputs\":[\"PredictedLabel\"]}]",
+    "MetricName": "MicroAccuracy"
+  },
+  "Type": "TrainingConfig",
+  "Version": 1
+}
