@@ -113,7 +113,7 @@ namespace WinFormsApp1
                 string baseDirectory = "VIS01";
                 string format = "yyyyMM";
 
-                DateTime startDate = new DateTime(2017, 1, 1);
+                DateTime startDate = new DateTime(2019, 9, 1);
                 DateTime endDate = new DateTime(2023, 3, 1);
 
                 DateTime currentDate = startDate;
@@ -182,7 +182,7 @@ namespace WinFormsApp1
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            string filePath = "list_data.bin";
+            /*string filePath = "list_data.bin";
             List<System.Single> percentages = ListConversion.LoadListFromSingleFile(filePath);
 
             Thread thread = new Thread(new ThreadStart(() =>
@@ -196,6 +196,11 @@ namespace WinFormsApp1
             thread.Join();
             label1.Text = "";
             label1.Text += "âêÕèIóπ";
+            */
+
+            Form5 f5 = new Form5();
+            f5.Show();
+
         }
 
         private void Button1_Click(object sender, EventArgs e)

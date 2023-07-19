@@ -17,24 +17,20 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private float select(ComboBox cb)
         {
-
+            return 0F + (cb.SelectedIndex - 1F) * 25F;
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            WeatherPredict wp = new WeatherPredict();
 
-        }
+            float sunshine_hours = 0F;
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            //wp.weatherPredict(comboBox1.SelectedText, Int32.Parse(textBox1.Text), select(comboBox3), comboBox5.SelectedText, Int32.Parse(textBox3.Text), Int32.Parse(textBox4.Text), comboBox2.SelectedText, Int32.Parse(textBox6.Text), comboBox4.SelectedText);
         }
     }
 }

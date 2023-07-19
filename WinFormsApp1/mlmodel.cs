@@ -16,16 +16,16 @@ namespace WinFormsApp1
         public class ModelInput
         {
             [ColumnName(@"col0")]
-            public string Col0 { get; set; }
+            public float Col0 { get; set; }
 
             [ColumnName(@"col1")]
             public float Col1 { get; set; }
 
             [ColumnName(@"col2")]
-            public string Col2 { get; set; }
+            public float Col2 { get; set; }
 
             [ColumnName(@"col3")]
-            public string Col3 { get; set; }
+            public float Col3 { get; set; }
 
             [ColumnName(@"col4")]
             public float Col4 { get; set; }
@@ -45,48 +45,6 @@ namespace WinFormsApp1
             [ColumnName(@"col9")]
             public float Col9 { get; set; }
 
-            [ColumnName(@"col10")]
-            public float Col10 { get; set; }
-
-            [ColumnName(@"col11")]
-            public float Col11 { get; set; }
-
-            [ColumnName(@"col12")]
-            public float Col12 { get; set; }
-
-            [ColumnName(@"col13")]
-            public float Col13 { get; set; }
-
-            [ColumnName(@"col14")]
-            public float Col14 { get; set; }
-
-            [ColumnName(@"col15")]
-            public float Col15 { get; set; }
-
-            [ColumnName(@"col16")]
-            public float Col16 { get; set; }
-
-            [ColumnName(@"col17")]
-            public float Col17 { get; set; }
-
-            [ColumnName(@"col18")]
-            public float Col18 { get; set; }
-
-            [ColumnName(@"col19")]
-            public float Col19 { get; set; }
-
-            [ColumnName(@"col20")]
-            public string Col20 { get; set; }
-
-            [ColumnName(@"col21")]
-            public float Col21 { get; set; }
-
-            [ColumnName(@"col22")]
-            public string Col22 { get; set; }
-
-            [ColumnName(@"col23")]
-            public string Col23 { get; set; }
-
         }
 
         #endregion
@@ -98,7 +56,7 @@ namespace WinFormsApp1
         public class ModelOutput
         {
             [ColumnName("PredictedLabel")]
-            public string Prediction { get; set; }
+            public float Prediction { get; set; }
 
             public float[] Score { get; set; }
         }
