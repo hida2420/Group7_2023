@@ -27,6 +27,8 @@ namespace WinFormsApp1
                     //textBox1.Text = openFileDialog1.FileName;
                 }
             }
+            Form2 f2 = new Form2();
+            f2.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -111,7 +113,7 @@ namespace WinFormsApp1
                 string baseDirectory = "VIS01";
                 string format = "yyyyMM";
 
-                DateTime startDate = new DateTime(2017, 1, 1);
+                DateTime startDate = new DateTime(2018, 9, 1);
                 DateTime endDate = new DateTime(2023, 3, 1);
 
                 DateTime currentDate = startDate;
@@ -120,6 +122,7 @@ namespace WinFormsApp1
                 {
                     string folderName = currentDate.ToString(format) + "\\";
                     string folderPath = Path.Combine(baseDirectory, folderName);
+                    
 
                     Debug.WriteLine(folderPath);
 
@@ -130,19 +133,21 @@ namespace WinFormsApp1
                         //ì«Ç›çûÇ‹ÇÍÇΩâÊëúÇÃêîÇï\é¶
                         Debug.WriteLine($"ì«Ç›çûÇ‹ÇÍÇΩâÊëúÇÃêî ({folderName}): {images.Count}");
 
+                        List<double> cloudPerMonth = new List<double>();
                         foreach (Bitmap img in images)
                         {
                             double cloudPercentage = ImageProcessing.CalculateCloudPercentage(img, x, y, width, height);
                             cloudPercentages.Add(cloudPercentage);
-                            Debug.WriteLine(cloudPercentage);
+                            cloudPerMonth.Add(cloudPercentage);
                             string filePath = "list_data.bin";
                             ListConversion.SaveDoubleListAsSingleFile(cloudPercentages, filePath);
-                            List<System.Single> percentages = ListConversion.LoadListFromSingleFile(filePath);
-                            Debug.WriteLine("----------------------");
-                            foreach(System.Single p in percentages)
-                                Debug.WriteLine(p);
-                            Debug.WriteLine("----------------------");
+                            //List<System.Single> percentages = ListConversion.LoadListFromSingleFile(filePath);
+                            //Debug.WriteLine("----------------------");
+                            //foreach (System.Single p in percentages)
+                            //    Debug.WriteLine(p);
+                            //Debug.WriteLine("----------------------");
                         }
+                        ListConversion.SaveDoubleListAsSingleFile(cloudPerMonth, currentDate.ToString(format)+".bin");
 
                         //éüÇÃåéÇ…êiÇﬁ
                         currentDate = currentDate.AddMonths(1);
@@ -182,7 +187,7 @@ namespace WinFormsApp1
 
             Thread thread = new Thread(new ThreadStart(() =>
             {
-                Sample08.RunPredict(percentages, 1, 1, 1);
+                Sample08.RunPredict(percentages);
                 //Sample08.RunPredict(percentages, percentages[0], percentages[1], percentages[2]);
             }));
             thread.Start();
@@ -191,6 +196,18 @@ namespace WinFormsApp1
             thread.Join();
             label1.Text = "";
             label1.Text += "âêÕèIóπ";
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
+            Form2 f2 = new Form2();
+            f2.Show();
         }
     }
 }

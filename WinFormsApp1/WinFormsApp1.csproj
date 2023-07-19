@@ -7,10 +7,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="MLModel1.consumption.cs" />
-    <Compile Remove="MLModel1.training.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="MetroModernUI" Version="1.4.0" />
     <PackageReference Include="Microsoft.ML" Version="1.6.0" />
     <PackageReference Include="Microsoft.ML.FastTree" Version="1.6.0" />
@@ -62,17 +58,5 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup Label="MLModel1">
-    <None Include="MLModel1.consumption.cs">
-      <DependentUpon>MLModel1.mbconfig</DependentUpon>
-    </None>
-    <None Include="MLModel1.training.cs">
-      <DependentUpon>MLModel1.mbconfig</DependentUpon>
-    </None>
-    <None Include="MLModel1.zip">
-      <DependentUpon>MLModel1.mbconfig</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 </Project>

@@ -1,0 +1,366 @@
+﻿cloudy after sunny,sunny after cloudy,85,5.1,5.5,24.9,16.8,0,3.2,West
+rain,rain,96,0,49,21.8,15.4,0,2.1,east southeast
+cloudy after rain,rain,95,0,32,22.9,18.8,0,3.8,west southwest
+cloudy,rain,94,0,1,21.4,17.6,0,2.1,south southeast
+cloudy,rain,96,0,6,20.2,17,0,2,east southeast
+cloudy,cloudy,92,0,0,23.4,17.7,0,1.9,west northwest
+cloudy,cloudy,79,9.1,0,29.8,18.3,0,2.8,west northwest
+sunny,sunny,85,4.4,0,27.3,19,0,2.2,east southeast
+cloudy,cloudy,87,5.1,0,28.1,20.4,0,2,southeast
+sunny,sunny,84,6.4,0,25.7,19.6,0,4.2,east southeast
+cloudy,cloudy after rainy,88,0,0,21.9,18.5,0,4.6,east southeast
+cloudy,cloudy,87,2.3,0,26.4,18.3,0,4.5,east southeast
+cloudy,rain,89,0,1.5,23.1,17.9,0,4.2,east southeast
+cloudy after sunny,cloudy,82,4,0,27,19.5,0,2.1,South
+sunny,cloudy,79,12.4,0,30.6,19.7,0,3.6,east
+cloudy,rain,86,2.1,2,27.2,20.2,0,5.5,east
+cloudy after rain,cloudy,87,0.3,9,23.7,19.5,0,4.2,east southeast
+cloudy after sunny,cloudy,79,3.5,0,24.9,18.4,0,5.4,east southeast
+rain,rain,92,0,3.5,20.3,18.2,0,7.1,east southeast
+rain,cloudy,92,0,7.5,19.2,18.2,0,7.2,east southeast
+rain,cloudy,91,0,14,21.6,18.1,0,1.9,West
+cloudy after sunny,cloudy,85,1.4,0,25.1,17.3,0,2.1,northwest
+cloudy,cloudy,86,1.8,2,28,18.6,0,3.1,east
+cloudy after rain,cloudy,91,0.7,9.5,23.7,19.5,0,1.8,east southeast
+sunny,sunny,85,10.8,0,26.5,19.6,0,2.3,south southeast
+rain,rain,89,0,1,24.2,20,0,2.7,east
+rain,cloudy,88,0,1.5,23.1,20.1,0,1.9,west northwest
+cloudy after rainy,sunny,82,1.6,0,24.6,18.3,0,2.7,west northwest
+sunny,sunny,82,8.3,0,26.2,17.5,0,1.7,south southeast
+sunny,sunny,80,10.5,0,27.3,20.7,0,1.8,South
+cloudy after sunny,sunny,87,6.9,0,26.8,21.4,0,1.8,south southeast
+sunny,sunny after cloudy,80,12.3,0,28.7,19.9,0,1.9,south southeast
+sunny,cloudy,80,12.2,0,29,19.6,0,1.7,south southeast
+sunny,sunny,81,13.5,0,29.2,20.8,0,2.2,south southeast
+cloudy,rain,79,3.2,0,30.7,21.5,0,4,west northwest
+rain,rain,96,0,67,25.1,20.9,0,3.2,east southeast
+cloudy,cloudy,82,9.5,7,29.3,21.8,0,4.4,West
+cloudy,cloudy,89,0,13,23.8,19.6,0,4.3,east southeast
+cloudy after sunny,cloudy,79,1.3,0,24.6,19.1,0,4.3,east
+cloudy,sunny,78,3.2,0,24.1,19,0,4.8,east
+cloudy,cloudy,78,2.9,0,24.6,19,0,4.5,east
+cloudy,cloudy,86,2.6,6.5,27.2,20.7,0,3.4,east
+cloudy,rain,90,1.6,104.5,30,21.5,0,4.4,southwest
+rain,rain,93,0,10,26,22.1,0,2.5,southwest
+rain,rain,96,0,20.5,22.5,21.1,0,1.7,southeast
+cloudy after rainy,rain,93,0.2,66,25.7,21.3,0,1.9,east
+cloudy after sunny,sunny,88,6.8,15.5,28.6,21.6,0,2,south southeast
+cloudy,cloudy,77,10.4,0,29,20.6,0,2.4,north northeast
+cloudy after sunny,cloudy,75,7.1,0.5,28.1,19.8,0,2.6,north northeast
+cloudy,rain,84,1.5,10,26.2,19.5,0,2.6,east southeast
+rain,sunny,89,0.4,53.5,27.3,21.7,0,5.5,southwest
+sunny,sunny,72,12.5,0,28.6,19.7,0,3.1,west northwest
+rain,sunny after rain,85,0,25,22.5,17.7,0,3.9,east
+sunny,cloudy,74,11.8,0,28.3,16.1,0,3.9,west northwest
+cloudy after rain,sunny,89,0.6,10,25.7,20.6,0,2.3,West
+sunny,sunny,73,13.1,0,28.6,15.3,0,2.4,north northeast
+sunny,cloudy,71,8.2,0,29,16.6,0,3.8,east
+cloudy,sunny,80,0.6,2.5,28.1,17.9,0,3.5,West
+sunny,sunny after cloudy,68,12.8,0,26.8,16.5,0,4.1,West
+sunny,cloudy,73,10.2,0,25.8,14,0,2.7,south southeast
+cloudy after sunny,sunny,78,3.7,0,25.5,18.3,0,1.6,north northeast
+cloudy,rain,85,0,1,25.2,19.6,0,3.4,east southeast
+cloudy,cloudy,74,3.7,0,24,16,0,3.2,west southwest
+sunny,cloudy,72,5.8,0,25,14.2,0,2.2,east
+cloudy,rain,82,0.4,4,24.8,19.1,0,1.9,East Tohoku
+rain,cloudy,95,0,65,23.1,17.8,0,2.9,east
+cloudy after sunny,cloudy after sunny,82,3.6,0,27.4,19.2,0,2.5,West
+cloudy,cloudy after sunny,71,5.9,0,24.1,14.7,0,3.4,west northwest
+cloudy,cloudy,76,1.7,0,22.6,13.7,0,1.8,north northeast
+sunny,sunny,78,10.3,0,27.1,16.3,0,3.5,east southeast
+cloudy,sunny,84,0.4,0,24.4,19.8,0,4.5,east
+sunny,cloudy,82,8.4,0.5,27.7,20,0,6,east southeast
+sunny,sunny,62,11.8,0,27.1,18.6,0,4.4,West
+sunny after cloudy,cloudy after sunny,69,9.1,0,24.9,13.8,0,1.9,North
+sunny,sunny,70,12.1,0,26.9,14.8,0,1.7,north northwest
+sunny,sunny,69,12.2,0,26.7,15.5,0,3.3,east
+sunny,sunny,76,7.2,0,24.7,18.1,0,4.7,east southeast
+cloudy after sunny,cloudy after rainy,80,6.9,0,26.9,19.8,0,4.3,east southeast
+cloudy after sunny,sunny,76,8,0,28,18.2,0,2.8,northwest
+sunny,cloudy after sunny,66,11.6,0,23,14.6,0,4.2,northwest
+cloudy,cloudy,76,8,0,23.3,13,0,1.7,north northeast
+cloudy,cloudy,76,0.1,0,23.8,16.5,0,3.3,east
+sunny,cloudy,79,7.4,0,27.7,19.3,0,1.7,northwest
+rain,cloudy after rain,91,0,15,25.4,19.8,0,1.5,north northeast
+cloudy after rainy,rain,90,0,4.5,24.8,16.7,0,2.3,northwest
+cloudy after sunny,sunny,68,6.9,38,19,9.1,0,5.3,northwest
+cloudy,sunny,69,7.8,0,20.1,8.5,0,2.4,north northeast
+sunny,cloudy,73,10.1,0,22.6,8.7,0,5.4,east southeast
+cloudy after rain,cloudy,94,0,37.5,22.3,18.9,0,2.7,east southeast
+cloudy after rain,cloudy after sunny,79,3.7,5,23,16,0,3.8,west northwest
+sunny,cloudy,70,10.3,0,23.7,13.3,0,2.7,west northwest
+sunny,sunny,73,9.6,0,24.3,13.7,0,2.6,north northeast
+cloudy,cloudy,71,9.4,0,24.1,11.6,0,2.1,north northeast
+cloudy after sunny,sunny,76,6.2,0,24,14.7,0,2.1,east southeast
+sunny after cloudy,cloudy,79,4.9,0,24,14.2,0,3.1,west northwest
+sunny,sunny after cloudy,82,8.4,0,24.8,15.6,0,2.4,north northeast
+sunny,sunny,79,10.8,0,25.8,15.6,0,2.1,west southwest
+sunny,sunny,82,9.6,0,24.2,14.9,0,3.4,east southeast
+cloudy,rain,81,1,0,22.9,17.5,0,3.5,east southeast
+rain,cloudy after sunny,89,0,65,22.1,12.1,0,4.9,northwest
+cloudy after sunny,sunny after cloudy,70,4,0,13.4,5.9,0,3.2,west northwest
+sunny,sunny,63,7,0,15.3,5.1,0,2.6,north northwest
+cloudy after rainy,cloudy after rain,72,0.2,0.5,14.6,4.8,0,2.1,East Tohoku
+cloudy,sunny after cloudy,63,8.7,0,17.4,8.2,0,2.9,northwest
+sunny after cloudy,cloudy,72,4.5,0,17.9,6.9,0,4.1,east
+rain,cloudy after rain,94,0,51.5,18.3,14.5,0,5.9,east southeast
+rain,cloudy after sunny,75,4.9,10.5,18.9,13.5,0,5,West
+sunny,sunny,64,10.1,0,18,7,0,3.8,west northwest
+sunny,sunny,74,10.5,0,17.8,5.5,0,2,East Tohoku
+sunny,cloudy,78,8.2,0,19.9,9.2,0,2.9,northeast
+cloudy after sunny,sunny,79,5.2,0,21.8,13,0,3.5,east southeast
+sunny,cloudy,82,5.5,0,20.6,12,0,2.3,east
+cloudy,sunny,77,3.9,4,20.3,6,0,3.3,west northwest
+sunny,cloudy,63,5.6,0,13.2,4.9,0,3.9,west northwest
+sunny,sunny,70,9.6,0,14.6,3.7,0,3.6,west northwest
+cloudy,sunny,70,5.8,0,16.7,5.3,0,4,West
+sunny,cloudy,77,4.7,0,20,10.3,0,2.5,west southwest
+sunny,sunny,72,9.6,0,21.1,11.6,0,3.3,West
+cloudy,sunny,65,1.3,0,14.2,4.7,0,3.8,west northwest
+sunny after rainy,sunny,72,9.2,0,12.6,2.9,0,3.8,northwest
+sunny,sunny,60,10.4,0,13.9,2,0,2,North
+sunny,sunny,69,7.2,0,15,3.4,0,2.3,north northwest
+sunny,sunny after cloudy,72,5.8,0,15.4,3.7,0,2.1,North
+sunny,sunny after rain,78,7,1.5,17.6,7.8,0,2.2,south southeast
+sunny after rain,cloudy,81,6.5,1,14,6.9,0,3.4,west northwest
+sunny,sunny,76,8.5,0,17.1,6.8,0,3.4,northwest
+sunny,sunny,76,9.7,0,15.5,5.2,0,2.6,east southeast
+cloudy,cloudy after rain,72,4.3,0.5,17.2,10.7,0,3.2,east southeast
+sunny,sunny after cloudy,72,9,3.5,14.8,6.3,0,2.8,west northwest
+rain,cloudy after snow,81,0,9,9.4,5.5,0,2.5,northwest
+sunny,sunny after cloudy,63,6.8,0,10,0.9,0,4.2,west northwest
+sunny after rain,sunny after rain,69,5,0.5,10,0.1,0,3.4,west northwest
+sunny,sunny after cloudy,71,8.2,0,13,1.3,0,2.7,west northwest
+sunny,cloudy,73,8,0,12.3,0.9,0,1.9,west southwest
+cloudy after rain,cloudy,85,2.3,3,11.8,2.6,0,2.1,north northwest
+sunny,sunny after cloudy,71,7.4,0,13.4,3.3,0,3,west northwest
+sunny after cloudy,sunny,58,6.7,0,16.5,2.9,0,4.8,west northwest
+sunny,sunny,65,9.7,0,12.1,0.4,0,2.1,north northeast
+cloudy,sunny,76,6.8,0,16,2.4,0,2.4,north northeast
+cloudy,cloudy,79,0,12,18.7,7.6,0,5.9,northwest
+sunny,cloudy after sunny,68,4.5,1,9.5,4.9,0,4.4,northwest
+rain,cloudy after sunny,82,1.1,0,9.5,2.4,0,2,North
+cloudy,sunny day sleet,74,6.4,0,9.1,0.2,0,3.6,west northwest
+cloudy,sunny,66,8.1,0.5,8.7,0,0,3.2,west northwest
+cloudy after rainy,cloudy after rain,82,2.6,8,10.3,-0.6,0,1.8,north northeast
+sunny,sunny after cloudy,75,8.6,0,12,2.7,0,3.1,northwest
+cloudy,cloudy after rainy,75,3.8,0,14,3.4,0,5.2,east southeast
+sunny,sunny after rain,84,3.8,0.5,16.4,8.3,0,2.4,South
+sunny,sunny,61,5.4,1,11.8,-0.2,0,4.9,west northwest
+sunny,rain,71,5.4,0,8.9,-1,0,3.2,east
+cloudy,sunny,77,3.1,0,12.9,2.3,0,3,west northwest
+sunny,cloudy after sunny,68,7.8,0,11.9,0.3,0,2.3,north northeast
+cloudy after rain,cloudy after rain,73,1,8.5,15,4.8,0,4.8,west northwest
+cloudy,cloudy,67,2.5,0,5.3,2.4,0,4.7,west northwest
+rain after cloudy,cloudy,77,1.4,0,10.9,1.4,0,2.2,east
+rain,cloudy after rain,79,0.8,17.5,18.4,8.3,0,4,southwest
+cloudy,snow,73,0.2,3,8.4,-4,6,5.8,northwest
+snow,sunny after snow,89,1.8,10,-1.4,-4.7,17,4.6,west northwest
+sunny,cloudy,80,8.2,2.5,-0.6,-8.1,3,2.6,north northwest
+cloudy,sleet,89,0,11,4.2,-2.5,1,2.8,North
+cloudy,snow,71,3.3,0.5,3.4,-5.1,1,5,west northwest
+snow,cloudy after sunny,78,5.6,0,-0.8,-5.7,1,3.4,west northwest
+cloudy,snow,81,0.4,0.5,2.8,-3.4,0,2,north northwest
+cloudy,snow,89,2,4.5,3.1,-1.8,7,2.6,west northwest
+sunny,cloudy,78,5.3,3,2,-3.4,11,3.6,west northwest
+cloudy after snow,cloudy,88,3.1,1.5,2.5,-3.7,1,1.6,East Tohoku
+sunny,cloudy sleet,89,4.9,2,4.4,-3.7,0,2,North
+sunny,sunny,73,3.8,0,3.3,-2.9,0,2.6,northwest
+cloudy,cloudy,62,5.7,0,4.4,-2.3,0,2.7,west northwest
+rain,cloudy after rain,77,1.2,7,8.2,0.7,0,4.4,west northwest
+snow,snow,81,0.1,8,1.7,-6.5,12,5.5,west northwest
+snow,snow,89,0,20.5,-3.1,-5.4,22,5.9,west northwest
+snow,snow,83,2,4.5,-2.9,-5.6,10,4.9,west northwest
+cloudy after snow,cloudy after snow,85,2.6,8.5,1.2,-6.2,6,2.8,north northwest
+cloudy after snow,cloudy after snow,82,2.2,7.5,-1.7,-7.3,12,3.8,west northwest
+cloudy after snow,sunny after after snow,78,7.2,1.5,-3.4,-9.1,2,3.3,west northwest
+snow,snow,86,2.4,2.5,-1.8,-8.8,4,3.5,west northwest
+cloudy,cloudy after rainy,76,3.2,0,3,-3.1,0,2.3,west northwest
+rain,rain,87,0,17.5,6.6,2.8,0,7.6,east
+cloudy sleet,cloudy,72,0,0.5,5,1.6,0,4.1,West
+sleet after rain,cloudy,78,3.6,4.5,5.4,0,5,5.7,north northwest
+cloudy after sunny,cloudy,70,7.7,0,4.8,1.5,0,7,northwest
+sleet,sleet,77,3.1,0,5.7,-0.6,0,5.5,northwest
+cloudy,sunny after after snow,76,4,0,6.3,-1.4,0,3.1,north northwest
+cloudy sleet,snow,88,0.2,0.5,4,-0.6,4,1.8,North
+snow,sunny after after snow,87,2.3,12,-0.2,-6.5,18,3.8,west northwest
+snow,cloudy,87,2.3,0.5,-0.7,-6.8,3,2.8,west northwest
+cloudy,cloudy after snow,75,0.9,0,3.1,-2.7,0,2.8,West
+snow,snow,84,1.3,3,2.9,-5.6,6,4,west northwest
+snow,snow,83,1.8,4.5,-4.9,-7.9,8,4.7,west northwest
+snow,snow,89,0.1,10.5,-4.5,-7.4,17,4,west northwest
+snow,snow,82,2.2,2,-3.7,-10.6,1,3.8,west northwest
+snow,cloudy,79,1.1,3.5,-1.3,-8.6,9,3.1,west northwest
+cloudy,snow,77,2.5,0.5,1.8,-3.8,0,2.5,west northwest
+sunny,cloudy,77,8.1,0,2.4,-6.7,2,1.7,northwest
+sunny,cloudy after snow,72,8.1,0,3,-6.7,0,2.5,west northwest
+snow sleet,sunny,85,1.9,3.5,3.4,-4.8,4,3.1,northwest
+sunny,sunny after cloudy,68,8.4,0,-0.2,-6.6,0,4.2,west northwest
+cloudy,cloudy sleet,81,1.2,0.5,5.2,-5.5,1,2.3,north northeast
+sunny,sunny,75,8,0,8,-0.6,0,2.8,west northwest
+cloudy,cloudy,82,3.8,0,11.5,-1,0,2.2,north northeast
+cloudy after rain,cloudy after snow,83,0,6,5.1,0.7,0,3.3,northwest
+snow,sunny after snow,93,0,14,0.8,-2.1,33,2.2,east
+sunny after after snow,sunny after after snow,73,5.9,5.5,0.9,-6.5,3,4.5,northwest
+cloudy,cloudy after snow,79,1.9,0,-2.2,-7,0,2.4,west northwest
+cloudy,sunny,73,3.5,0,0.6,-7.6,0,3,northwest
+sunny after after snow,snow sleet,77,5.2,1.5,1.2,-9.8,2,2.2,east
+sunny after after snow,cloudy after snow,80,4.6,9,2.9,-1.9,11,3.6,east
+snow,snow,77,5,1.5,0.1,-7,3,6,west northwest
+snow,sunny,82,4.3,1,-3.3,-11.6,2,2.7,west northwest
+sunny after cloudy,cloudy after snow,77,3.4,5,0.2,-11.4,8,3.1,East Tohoku
+cloudy,cloudy,72,0,1,-3,-13,0,4.3,northwest
+snow,snow,73,0.9,7,-8.7,-13.1,12,6.4,west northwest
+cloudy after snow,sunny after snow,73,3.4,3,-4,-9.2,3,5.4,west northwest
+cloudy,sunny after after snow,81,1,0,-2.7,-10.4,0,2.2,north northwest
+snow,snow,84,1.3,3.5,-6.2,-10.2,7,4.3,west northwest
+snow,sunny,78,5.7,1.5,-6.3,-11.4,1,3.2,west northwest
+sunny,snow,75,5,0.5,-1.9,-12.7,2,2.2,north northwest
+snow,snow,82,2.8,1.5,-2.7,-7.9,4,3.4,west northwest
+cloudy after snow,cloudy sleet,88,0.2,10.5,3.1,-6.9,10,3.9,east
+snow,snow,74,5.2,0,-0.9,-8.8,2,5.6,west northwest
+snow,cloudy,81,4.2,1,-3.2,-9.9,2,2.4,West
+cloudy after snow,cloudy,77,4.7,0,-1,-7.1,0,2.2,west northwest
+cloudy,snow sleet,81,5.9,0.5,1.2,-8.8,4,2.7,west northwest
+cloudy,sunny,82,7.2,2,3.5,-3.9,3,2.3,West
+sunny,cloudy,70,9.1,0,2,-7.6,1,2.5,northwest
+sunny after after snow,sunny,67,7.3,0,1.1,-8.9,1,1.8,north northwest
+sunny,sunny,69,5.4,0,-1.7,-8.3,0,3.2,west northwest
+cloudy after snow,cloudy,73,0,0,0,-9.1,0,2.5,east
+sunny after cloudy,cloudy sleet,82,3.7,0,4.1,-4.9,0,1.7,west northwest
+cloudy,sunny,82,3.2,4.5,4.3,-1.7,4,2.9,north northwest
+cloudy after sunny,sunny,79,3.1,0,2.9,-3.8,1,2.2,northwest
+sunny after after snow,sunny after snow,74,5.8,4.5,-0.3,-5.6,11,3.2,northwest
+cloudy after snow,sunny,71,7.9,0,-2.5,-10.2,0,3.1,northwest
+snow,cloudy,76,4.6,0,0,-11.2,0,3.1,West
+snow sleet,sleet,84,1.3,1.5,5.2,-2.7,0,2.4,West
+sunny,sunny,68,8.9,0,7.8,0.8,0,3,West
+cloudy sleet,snow sleet,86,0,3,4.7,0.5,2,2,east southeast
+snow,sunny,76,2.2,2,1.2,-5.5,3,5.3,northwest
+sunny after cloudy,sunny,73,5.7,0,-0.3,-6.5,0,4,northwest
+snow,snow,81,4,1.5,1.4,-8.8,8,3.1,West
+cloudy after rainy,cloudy,89,2.6,2.5,5.3,-1.9,0,2.3,west southwest
+sunny,snow,73,8.2,0.5,4.5,-4.9,2,2,North
+cloudy,sunny after after snow,76,7.8,0.5,2.2,-4.9,1,4,northwest
+cloudy after snow,sunny,74,6.5,2.5,-0.3,-6.7,2,3.9,northwest
+sunny,sunny,63,9.4,0,7.2,-8.7,0,4.1,West
+cloudy,sunny,64,6.3,0,11.3,4.7,0,4.9,West
+cloudy,sleet,64,6.3,0,9.2,1.6,0,3.8,west northwest
+cloudy,sunny,70,7,1,5.1,-1.8,1,3.7,northwest
+snow,snow sleet,79,4.7,5,4.3,-2.9,11,3.1,northwest
+sunny,sunny,74,5.3,0,5.1,-3.4,0,3.2,west northwest
+sunny,sunny,66,10.8,0,7.4,-5.3,0,3.2,West
+cloudy,sunny,77,1.2,0,9,-0.5,0,3.3,southwest
+cloudy,sunny,84,0.2,0,10.3,1.9,0,2.6,southwest
+cloudy,cloudy,84,1.6,0,13.2,1,0,3.5,southwest
+sunny,rain,85,1.5,0,7.2,0.6,0,4.1,east
+cloudy after rain,cloudy,86,1.5,10,11,2.8,0,4.8,east southeast
+sunny,sunny,70,10.3,0,10.1,1.6,0,4.2,west northwest
+sunny after cloudy,sunny,81,8.1,0,10.3,0.1,0,4.7,east southeast
+rain,cloudy,76,0,4,11.1,1.2,0,6.4,West
+sunny,sunny,52,7.3,0,6.6,-0.6,0,3.2,west northwest
+sunny,cloudy,63,10.2,0,11.2,-1.4,0,3.7,east
+rain,cloudy after snow,77,0.2,2,8.8,1,0,3,West
+cloudy,sunny,57,3.9,0,7.3,-1.5,0,4.6,West
+cloudy,sunny,59,7.9,0,8.8,-2.3,0,2.9,west northwest
+sunny,sunny,55,10.6,0,11.1,-1.7,0,4.3,West
+sunny,sunny,53,11.5,0,14.5,2,0,3.6,west northwest
+sunny,sunny,59,11.2,0,15.1,2.2,0,2.1,South
+sunny,sunny,68,10.5,0,15.6,3.3,0,1.7,south southeast
+cloudy,rain,79,8.4,2,16.2,5.6,0,1.6,west northwest
+cloudy,cloudy,62,9.2,1,11.9,0.4,0,5.9,north northwest
+cloudy,sunny,64,7.6,0,9.6,-1.6,0,2.1,southeast
+rain,cloudy after rain,87,0,13.5,9.4,2.5,0,3.9,northwest
+sunny after cloudy,sunny,60,8.4,0.5,9.4,0.5,0,6,West
+sunny,sunny,58,11.9,0,11.2,-0.8,0,2.9,southwest
+cloudy after rainy,sunny,75,4.5,0,10.7,-0.5,0,2,north northeast
+sunny,sunny,74,9,0,13.3,1.7,0,2.9,East Tohoku
+sunny after rain,sunny,75,5.4,4.5,13.9,3,0,2.9,northeast
+sunny,sunny,61,12.2,0,12.7,0.5,0,5.1,northwest
+sunny,sunny,73,10.1,0,10.6,0.6,0,2.5,north northeast
+sunny,sunny,75,12,0,12.4,0.4,0,1.7,south southeast
+sunny,cloudy,56,10.3,0,17.2,2.2,0,2.9,west northwest
+cloudy,cloudy,59,1.2,0,15.1,8.8,0,2.6,east southeast
+rain,rain,83,0,2,16.5,9.2,0,2.9,South-southwest
+rain,cloudy,94,0,14.5,13.4,8.6,0,2.7,west northwest
+cloudy after sunny,cloudy,74,5.2,2,12.9,4.5,0,3.2,west northwest
+rain,sunny,68,4.7,1,10.3,1.9,0,4.8,west northwest
+cloudy,sunny after cloudy,74,9,0,14.8,2.1,0,4.2,southwest
+cloudy,rain,73,4.2,0,17.4,6.8,0,5.3,southwest
+cloudy after sunny,cloudy,59,7.3,18,15.1,5.7,0,6.6,West
+cloudy,cloudy after sunny,46,8.8,0,13.4,4,0,5.1,West
+cloudy after rainy,cloudy,71,1.8,0,15,3.8,0,4.3,southwest
+sunny,rain,58,6.4,2.5,14.3,1.8,0,3.9,east
+rain,cloudy,86,0,20,12.3,3.9,0,5.4,West
+cloudy,sunny after cloudy,66,2.4,0,9.2,1.5,0,5.2,west northwest
+sunny,rain,66,9.7,0,12.5,-0.7,0,2.7,southwest
+cloudy,cloudy after sunny,77,2.4,11.5,12.4,6.6,0,3.6,West
+sunny,cloudy,72,4.2,0,16.7,5.4,0,2.7,South-southwest
+cloudy,sunny,38,9.8,0,13.8,6.6,0,7.7,west northwest
+cloudy,sunny after rain,50,10.5,0,11.5,3.2,0,6.2,west northwest
+cloudy,sunny,52,6.1,1.5,11.8,3.5,0,5.8,west northwest
+cloudy,sunny,52,7,0,12,2.9,0,4.9,West
+sunny after cloudy,cloudy,48,9.8,0,14.8,2.1,0,3.8,east southeast
+cloudy after rain,cloudy after sunny,86,0.2,11,12.6,7.7,0,4.3,east southeast
+sunny,sunny after cloudy,45,13.4,0,14.2,5.6,0,6.4,West
+cloudy,sunny,71,6,0,15.6,5.6,0,3.8,southwest
+cloudy,rain,69,5.2,1,19.3,6.4,0,2,south southeast
+sunny after rain,sunny,77,6.4,9.5,18.4,10.4,0,4.3,west southwest
+sunny after rain,cloudy,69,9,2,17.4,8,0,4.3,southwest
+sunny,sunny after cloudy,59,12.4,0,16.6,6.3,0,4.5,west northwest
+sunny,cloudy,64,3.3,0,16.4,5.9,0,4.1,southwest
+cloudy after sunny,sunny,72,4.3,0,19.4,8.3,0,3.4,southwest
+cloudy,cloudy,76,3,4.5,18.6,10,0,2.2,west northwest
+rain,rain,94,0,12,13.6,7.6,0,2.6,east southeast
+sunny,cloudy after rainy,73,7.1,0,14.1,7,0,4,east southeast
+cloudy after rain,sunny after cloudy,78,1.1,2.5,10,5.4,0,2.8,east southeast
+sunny,cloudy,78,6.9,0,15.6,5.1,0,4.8,southwest
+cloudy after rain,sunny,62,8.3,0,17.1,6.6,0,2.6,East Tohoku
+sunny,sunny after cloudy,56,11.3,0,15.7,3.4,0,3.7,northwest
+cloudy after sunny,sunny,70,6.5,0,16.1,3.4,0,2.4,south southeast
+sunny,cloudy,68,7.8,0,16.9,4.6,0,1.6,south southeast
+sunny after rain,rain,79,7.9,0.5,16,5.4,0,1.9,North
+cloudy,cloudy,84,0,3,18.1,12.8,0,3.3,east southeast
+sunny,sunny,84,9.3,0,19.2,12.2,0,2.2,south southeast
+sunny,sunny,82,10.7,0,21.4,11.3,0,2,south southeast
+cloudy,cloudy,74,11.5,0,24.3,13,0,2.7,west southwest
+rain,cloudy,87,0,0,17.5,13,0,2.1,south southeast
+sunny,cloudy,77,4.9,0,18.2,10.8,0,4.6,east southeast
+rain,cloudy,94,0,4.5,15.2,10.1,0,3.5,east
+cloudy,sunny,72,10,0,20.2,8.7,0,3.9,West
+sunny,sunny,70,9.5,0,16.2,6,0,2.8,east southeast
+sunny,sunny,67,14.1,0,20.6,7.8,0,3.1,northwest
+sunny,sunny,66,13.9,0,22.3,8,0,2.2,West
+cloudy,cloudy,71,6.2,3.5,21.7,9.8,0,2.6,south southeast
+cloudy,cloudy,73,9.4,0,22.3,14.9,0,3.2,southwest
+cloudy,cloudy,90,0,3,18.1,13.8,0,1.9,south southeast
+cloudy after sunny,sunny after cloudy,79,7.5,0,22.4,12.7,0,3.7,West
+cloudy,sunny,70,7.9,0,19.7,9.2,0,3.8,west northwest
+sunny,sunny after cloudy,64,13.5,0,21.4,7.9,0,3.7,West
+sunny,sunny,58,13.6,0,24.2,10.1,0,3.3,southwest
+cloudy after rainy,cloudy after rain,79,1.9,36,22.9,14.8,0,2.5,southeast
+cloudy after sunny,sunny after rain,79,3,0,19.6,10.9,0,3.9,west northwest
+cloudy after rain,cloudy after sunny,72,5.1,0,21.4,10.7,0,4.3,West
+sunny,sunny,64,11,0,22.7,10.6,0,4.2,West
+cloudy,cloudy,73,4,0,21.9,12.4,0,2.9,southwest
+cloudy,cloudy after sunny,90,0,26.5,18.3,15.1,0,1.8,northeast
+sunny,cloudy after rainy,79,12.7,0,23.2,12.9,0,3.1,south southeast
+rain,rain,90,0,21,19.3,14.5,0,6.3,east southeast
+cloudy,sunny,90,3,3,20.5,14.6,0,3.1,south southeast
+cloudy after sunny,cloudy,85,4.9,0,22.6,15.7,0,2.6,east
+cloudy,cloudy,84,3.1,0,24.9,15.4,0,3.3,east southeast
+cloudy,cloudy,88,0,0,20.6,16.8,0,3.2,east
+cloudy,sunny,85,10.8,0,24.6,16.2,0,1.8,south southeast
+cloudy,sunny,90,0.3,0,20.6,16.6,0,1.5,West
+cloudy after sunny,sunny,84,3.2,0,22.6,17.1,0,1.9,west northwest
+sunny,cloudy,77,4.5,1.5,25.9,18.3,0,4.7,west southwest
+cloudy,sunny,64,10.3,0,24.3,14.9,0,4.6,north northwest
+sunny,sunny,63,14,0,24,13.5,0,4,north northwest
+sunny,sunny after cloudy,68,14.3,0,24.2,11.3,0,2.6,west southwest
+sunny,sunny,59,11.6,0,27.4,13.4,0,2.2,south southeast
+sunny,cloudy,76,2.5,0,22.8,16.2,0,4.5,east
+rain,rain,91,0,16.5,18.9,15.1,0,5.5,east
+cloudy after sunny,cloudy,87,1.1,7,20.4,15,0,3.3,east southeast
+cloudy,sunny,83,6.2,0,23.6,16.8,0,1.6,south southeast
+cloudy after sunny,sunny,85,9.2,0,25.2,15.7,0,1.9,south southeast
+cloudy,rain,84,7.4,9.5,26.1,16.6,0,1.9,south southeast

@@ -1,0 +1,369 @@
+date,Average temperature (Åé),Weather overview (daytime: 06:00-18:00),Weather overview (night: 18:00 to 06:00 the next day),Average vapor pressure (hPa),Average humidity (%),Average local pressure (hPa),Mean Sea Level Pressure (hPa),Minimum sea level pressure (hPa),Minimum relative humidity (%),Sunlight hours (hours),Total global solar radiation (MJ/áu),Total precipitation (mm),Maximum 10 minute precipitation (mm),Maximum temperature (ÅãC),Minimum temperature (ÅãC),Deepest snow cover (cm),Total snowfall (cm),Average wind speed (m/s),Maximum wind speed (m/s),Maximum wind speed (m/s),Maximum instantaneous wind speed (m/s),Maximum instantaneous wind speed (m/s),Maximum number of wind directions (16 directions)
+,,,,,,,,,,,,,,,,,,,,wind direction,,wind direction,
+,,,,,,,,,,,,,,,,,,,,,,,
+2022/6/27,20.3,"Partly cloudy, then sunny",Sunny then cloudy with occasional rain,20.3,85,1003.3,1008.4,1006.7,68,5.1,18.95,5.5,3.5,24.9,16.8,0,0,3.2,6.9,northwest,9.2,West,West
+2022/6/28,19,heavy rain,rain,21.2,96,1002,1007.2,1002.7,88,0,3.52,49,4,21.8,15.4,0,0,2.1,5.2,west southwest,8.1,west southwest,east southeast
+2022/6/29,20.8,Partly cloudy after rain,rainy and sometimes cloudy,23.2,95,998.2,1003.3,1000.5,82,0,4.33,32,4,22.9,18.8,0,0,3.8,8.8,West,13.1,West,west southwest
+2022/6/30,19.3,Cloudy with occasional rain,rainy and sometimes cloudy,21.1,94,1005.4,1010.5,1004.7,83,0,8.52,1,0.5,21.4,17.6,0,0,2.1,5.3,east southeast,7,south southeast,south southeast
+2022/7/1,18.3,Cloudy with occasional rain,rainy and sometimes cloudy,20,96,1010.3,1015.5,1014,84,0,5.5,6,1.5,20.2,17,0,0,2,4.9,east,7.1,east,east southeast
+2022/7/2,20.7,Cloudy with occasional rain,Partially cloudy,22.4,92,1008.6,1013.7,1012.1,81,0,7.07,0,0,23.4,17.7,0,0,1.9,4.1,west northwest,6.1,northwest,west northwest
+2022/7/3,24,Partially cloudy,Partially cloudy,23.2,79,1004.7,1009.7,1007.7,60,9.1,22.88,0,0,29.8,18.3,0,0,2.8,6.5,west northwest,10.5,west northwest,west northwest
+2022/7/4,23.1,partly cloudy,partly cloudy,23.9,85,1003.1,1008.1,1007,73,4.4,15.67,0,0,27.3,19,0,0,2.2,5.2,South-southwest,9.2,southwest,east southeast
+2022/7/5,23.9,Partly cloudy with thunder,Partly cloudy with thunder,25.6,87,1003.9,1009,1007.7,68,5.1,20.77,0,0,28.1,20.4,0,0,2,5.5,south southeast,7.8,south southeast,southeast
+2022/7/6,22.5,partly cloudy,partly cloudy,22.6,84,1007.2,1012.3,1009.7,70,6.4,22.06,0,0,25.7,19.6,0,0,4.2,7.2,east southeast,11,southeast,east southeast
+2022/7/7,20.1,Cloudy with occasional rain,"Partly cloudy, then rain",20.6,88,1009.3,1014.4,1013.6,79,0,7.01,0,0,21.9,18.5,0,0,4.6,7,east,9.9,east southeast,east southeast
+2022/7/8,20.4,Cloudy with occasional rain,"Partly cloudy, then occasional rain",20.8,87,1006.5,1011.6,1010.2,67,2.3,14.95,0,0,26.4,18.3,0,0,4.5,8.1,east,11.2,east,east southeast
+2022/7/9,20,Cloudy with occasional rain,rainy and sometimes cloudy,20.8,89,1003.4,1008.5,1006.6,77,0,7.39,1.5,0.5,23.1,17.9,0,0,4.2,8.3,east southeast,11.7,east southeast,east southeast
+2022/7/10,22.9,Cloudy then sunny with a shower,Cloudy with occasional rain,22.6,82,1001.6,1006.6,1005.2,65,4,18.39,0,0,27,19.5,0,0,2.1,5.5,south southeast,7.9,south southeast,South
+2022/7/11,24.4,fine weather,Cloudy,24,79,1004.5,1009.5,1008.2,57,12.4,27.85,0,0,30.6,19.7,0,0,3.6,9.7,east southeast,13.5,east southeast,east
+2022/7/12,23.1,"Partly cloudy, partly rainy, partly sunny",rain,24.3,86,1004.8,1009.9,1008.7,72,2.1,16.99,2,0.5,27.2,20.2,0,0,5.5,8.8,east southeast,14,east southeast,east
+2022/7/13,20.9,Partly cloudy after rain,Cloudy with occasional rain,21.4,87,1004.9,1010,1009,64,0.3,10.01,9,0.5,23.7,19.5,0,0,4.2,6.5,east,9.2,east southeast,east southeast
+2022/7/14,21.1,Partly sunny after cloudy,Cloudy with occasional rain,19.8,79,1003,1008.1,1006.6,61,3.5,17.02,0,0,24.9,18.4,0,0,5.4,8.9,east southeast,12.1,east southeast,east southeast
+2022/7/15,19,rainy and sometimes cloudy,rainy and sometimes cloudy,20.3,92,1000.9,1006,1004.9,80,0,3.54,3.5,1,20.3,18.2,0,0,7.1,9.3,east southeast,16,east southeast,east southeast
+2022/7/16,18.6,rainy and sometimes cloudy,Cloudy with occasional rain,19.7,92,1002.5,1007.6,1006,83,0,4.46,7.5,1,19.2,18.2,0,0,7.2,9.5,east,14.9,east,east southeast
+2022/7/17,19.7,rainy and sometimes cloudy,Partly cloudy and foggy,20.9,91,997,1002.1,1000.2,75,0,4.31,14,1.5,21.6,18.1,0,0,1.9,5.8,east,10,east,West
+2022/7/18,21.4,Partly sunny after cloudy,Partially cloudy,21.5,85,997.6,1002.7,1000.9,67,1.4,13.57,0,0,25.1,17.3,0,0,2.1,4.8,northwest,7.6,West,northwest
+2022/7/19,22.2,"Partly cloudy, then occasional rain",Partly cloudy with thunder,23.1,86,997.7,1002.7,1000.3,66,1.8,14.81,2,1,28,18.6,0,0,3.1,6.3,east,9.6,east,east
+2022/7/20,21.2,"Cloudy after rain, sometimes sunny",Cloudy,23,91,998.3,1003.4,999.5,79,0.7,9.34,9.5,2,23.7,19.5,0,0,1.8,7.7,east southeast,11.3,east southeast,east southeast
+2022/7/21,23,fine weather,partly cloudy,23.6,85,1000,1005.1,1004.1,69,10.8,25.69,0,0,26.5,19.6,0,0,2.3,4.7,south southeast,7.4,southeast,south southeast
+2022/7/22,21.5,rainy and sometimes cloudy,rainy and sometimes cloudy,22.7,89,999,1004.1,1002.3,77,0,6.66,1,0.5,24.2,20,0,0,2.7,5.8,east northeast,8.9,east northeast,east
+2022/7/23,21.3,rainy and sometimes cloudy,Cloudy with occasional rain,22.4,88,997.8,1002.9,1001.2,79,0,5.85,1.5,0.5,23.1,20.1,0,0,1.9,5,east northeast,10.1,east northeast,west northwest
+2022/7/24,21.6,Partly rain after cloudy,partly cloudy,21,82,1002.4,1007.4,1004.8,67,1.6,12.63,0,0,24.6,18.3,0,0,2.7,5.8,west southwest,8.3,west southwest,west northwest
+2022/7/25,22.2,partly cloudy,partly cloudy,21.9,82,1005.8,1010.8,1009.7,64,8.3,23.62,0,0,26.2,17.5,0,0,1.7,5.1,south southeast,7.8,south southeast,south southeast
+2022/7/26,23.6,partly cloudy,partly cloudy,23.2,80,1006.1,1011.1,1010.2,65,10.5,24.93,0,0,27.3,20.7,0,0,1.8,4,south southeast,5.9,south southeast,South
+2022/7/27,23.2,"Partly cloudy, then sunny",Partly sunny with some rain and fog,24.6,87,1007.1,1012.2,1011.1,72,6.9,18.55,0,0,26.8,21.4,0,0,1.8,4.1,south southeast,5.7,South-southwest,south southeast
+2022/7/28,24.1,fine weather,Partly cloudy after clear skies,23.5,80,1009.6,1014.6,1012.8,58,12.3,25.69,0,0,28.7,19.9,0,0,1.9,3.9,south southeast,6,southeast,south southeast
+2022/7/29,24.1,fine weather,Partially cloudy,23.7,80,1011.5,1016.5,1015.3,62,12.2,25.52,0,0,29,19.6,0,0,1.7,3.9,south southeast,5.9,west southwest,south southeast
+2022/7/30,24.5,fine weather,Sunny then sometimes cloudy,24.7,81,1009.1,1014.2,1012.2,65,13.5,27.11,0,0,29.2,20.8,0,0,2.2,4.8,northwest,6.6,southwest,south southeast
+2022/7/31,25.8,"Partly cloudy, partly rainy, partly sunny",rainy and sometimes cloudy,26.1,79,1006.8,1011.8,1010.6,61,3.2,14.55,0,0,30.7,21.5,0,0,4,9.6,West,14,West,west northwest
+2022/8/1,22.1,heavy rain,rainy and sometimes cloudy,25.7,96,1007.5,1012.6,1009.3,86,0,2.86,67,4,25.1,20.9,0,0,3.2,6.8,east southeast,10.8,east southeast,east southeast
+2022/8/2,25.4,Partly cloudy with occasional rain,Cloudy with occasional rain,26.5,82,1003.8,1008.8,1006.5,65,9.5,24.91,7,3,29.3,21.8,0,0,4.4,9.9,west northwest,13.7,west northwest,West
+2022/8/3,21.2,Cloudy with occasional rain,Cloudy with occasional rain,22.4,89,1004.6,1009.7,1008.4,76,0,8.33,13,2,23.8,19.6,0,0,4.3,6.5,east,10.4,east,east southeast
+2022/8/4,20.9,"Partly cloudy, then sunny",Cloudy with occasional rain,19.4,79,1006.2,1011.3,1010.3,62,1.3,12.28,0,0,24.6,19.1,0,0,4.3,7.1,east southeast,10.1,southeast,east
+2022/8/5,20.3,"Partly cloudy, then partly sunny",partly cloudy,18.5,78,1005.6,1010.7,1009.8,60,3.2,12.3,0,0,24.1,19,0,0,4.8,7.4,east southeast,10.7,east southeast,east
+2022/8/6,21.4,Cloudy,Cloudy with occasional rain,19.7,78,1006,1011,1010.2,65,2.9,15.36,0,0,24.6,19,0,0,4.5,6.7,east southeast,9.7,east southeast,east
+2022/8/7,22.8,Cloudy with occasional rain,Cloudy with occasional rain,23.8,86,1005.7,1010.7,1009.3,70,2.6,13.37,6.5,3.5,27.2,20.7,0,0,3.4,5.9,east,8.7,east,east
+2022/8/8,25.4,Cloudy with occasional rain,Heavy rain Occasionally cloudy with thunder,29.1,90,1001.5,1006.5,1003.1,73,1.6,10.7,104.5,19.5,30,21.5,0,0,4.4,10.6,southwest,20,southwest,southwest
+2022/8/9,24.1,rainy and sometimes cloudy,rainy and sometimes cloudy,27.9,93,999.2,1004.2,1002.1,85,0,4.71,10,2,26,22.1,0,0,2.5,8.1,West,12,southwest,southwest
+2022/8/10,21.8,rain,"Rain, partly cloudy, partly sunny",25.2,96,1001.5,1006.6,1004.9,85,0,3.58,20.5,3,22.5,21.1,0,0,1.7,4.4,east southeast,6.1,southwest,southeast
+2022/8/11,22.8,"Partly cloudy, then rain","Occasionally cloudy after heavy rain, accompanied by thunder",25.9,93,1001.7,1006.8,1003.7,76,0.2,8.27,66,7.5,25.7,21.3,0,0,1.9,5.8,West,9.4,West,east
+2022/8/12,24.6,"Partly cloudy, then sunny",fine weather,26.9,88,999.4,1004.3,1001.7,67,6.8,17.75,15.5,3,28.6,21.6,0,0,2,4.8,south southeast,6.6,South,south southeast
+2022/8/13,24.5,Partly cloudy with occasional rain,Cloudy with occasional rain,23.6,77,1001.9,1006.9,1006.1,57,10.4,23.02,0,0,29,20.6,0,0,2.4,6.3,west southwest,9.3,west southwest,north northeast
+2022/8/14,23.4,"Partly cloudy, then sunny",Cloudy,21.3,75,1001.1,1006.1,1004.6,54,7.1,18.77,0.5,0.5,28.1,19.8,0,0,2.6,5.6,West,8.5,west northwest,north northeast
+2022/8/15,22.4,Cloudy with occasional rain,rain,22.6,84,999.5,1004.5,997.6,64,1.5,11.09,10,1.5,26.2,19.5,0,0,2.6,9.2,east southeast,14.1,southeast,east southeast
+2022/8/16,24.2,"Heavy rain, sometimes cloudy",partly cloudy,27,89,990.2,995.1,991,78,0.4,6.03,53.5,8.5,27.3,21.7,0,0,5.5,11.4,southwest,18.5,west southwest,southwest
+2022/8/17,23.7,fine weather,partly cloudy,20.9,72,1003.6,1008.7,1002,46,12.5,25.6,0,0,28.6,19.7,0,0,3.1,6.1,northwest,9.2,east southeast,west northwest
+2022/8/18,20,rainy and sometimes cloudy,"Rain, sometimes cloudy, then clear",19.8,85,1000.5,1005.6,1002.3,67,0,3.1,25,1.5,22.5,17.7,0,0,3.9,7.8,east,12.8,east,east
+2022/8/19,22.6,fine weather,Cloudy with occasional rain,20,74,997.6,1002.7,1001.7,53,11.8,24.29,0,0,28.3,16.1,0,0,3.9,9.3,West,13.6,west northwest,west northwest
+2022/8/20,22.5,Partly cloudy after rain,fine weather,24.2,89,994.4,999.4,996.9,74,0.6,4.61,10,1,25.7,20.6,0,0,2.3,5.7,West,8.7,West,West
+2022/8/21,22.5,fine weather,fine weather,19.6,73,1000.7,1005.7,1001.3,46,13.1,24.94,0,0,28.6,15.3,0,0,2.4,6.2,southwest,8.8,west southwest,north northeast
+2022/8/22,23.1,partly cloudy,Cloudy with occasional rain,19.9,71,1003.2,1008.2,1004.1,43,8.2,19.27,0,0,29,16.6,0,0,3.8,7.4,east,11.2,east,east
+2022/8/23,23.8,Cloudy with occasional rain,fine weather,23.6,80,996.6,1001.6,999,60,0.6,5.34,2.5,1.5,28.1,17.9,0,0,3.5,7.1,West,9.9,West,West
+2022/8/24,21.3,fine weather,Partly cloudy after clear skies,16.5,68,1002.1,1007.2,1003.9,34,12.8,24.69,0,0,26.8,16.5,0,0,4.1,9.3,west northwest,14.5,west northwest,West
+2022/8/25,21,Sunny then sometimes cloudy,Cloudy with occasional rain,18.1,73,1002.3,1007.4,1005.8,51,10.2,23.13,0,0,25.8,14,0,0,2.7,5.3,southeast,8.1,south southeast,south southeast
+2022/8/26,21.4,Cloudy then sunny with a shower,"Partly sunny, then cloudy",19.7,78,1002.1,1007.2,1005.5,49,3.7,8.95,0,0,25.5,18.3,0,0,1.6,3.6,northeast,5,southeast,north northeast
+2022/8/27,22.7,Cloudy with occasional rain,rainy and sometimes cloudy,23.4,85,1001.5,1006.5,1004.8,74,0,5.61,1,0.5,25.2,19.6,0,0,3.4,6.7,east southeast,10.3,east southeast,east southeast
+2022/8/28,20.6,"Partly cloudy, partly rainy, partly sunny",Partly cloudy with occasional rain,17.8,74,1006.7,1011.9,1007,46,3.7,13.29,0,0,24,16,0,0,3.2,7.5,West,11.2,west southwest,west southwest
+2022/8/29,20,partly cloudy,partly cloudy rain,16.6,72,1013.9,1019,1016.4,45,5.8,16.13,0,0,25,14.2,0,0,2.2,4.6,east northeast,6.4,east northeast,east
+2022/8/30,21.4,Cloudy with occasional rain,rain,20.9,82,1010,1015.1,1013.4,66,0.4,8.59,4,1,24.8,19.1,0,0,1.9,4.6,east,7.4,east,east northeast
+2022/8/31,20.1,heavy rain,Cloudy with occasional rain,22.4,95,1003.4,1008.5,1001.9,80,0,1.99,65,2.5,23.1,17.8,0,0,2.9,6.7,east southeast,10.8,northeast,east
+2022/9/1,22.7,Partly sunny after cloudy,Partly sunny after cloudy,22.3,82,1004.5,1009.6,1006,62,3.6,15.67,0,0,27.4,19.2,0,0,2.5,5.3,southwest,7.4,South-southwest,West
+2022/9/2,19.9,partly cloudy rain,Partly sunny after cloudy,16.3,71,1012,1017.2,1013.3,41,5.9,16.68,0,0,24.1,14.7,0,0,3.4,7.6,West,9.7,west northwest,west northwest
+2022/9/3,18.1,Cloudy,Cloudy,15.6,76,1013.9,1019.1,1017.8,58,1.7,11.53,0,0,22.6,13.7,0,0,1.8,4,South,6.1,south southeast,north northeast
+2022/9/4,21.3,fine weather,partly cloudy,19.5,78,1013.1,1018.2,1016.9,55,10.3,21.09,0,0,27.1,16.3,0,0,3.5,6.8,east southeast,9.7,east southeast,east southeast
+2022/9/5,21.8,Cloudy with occasional rain,partly cloudy,21.8,84,1010.6,1015.7,1013.8,73,0.4,8.36,0,0,24.4,19.8,0,0,4.5,8.1,east southeast,11,east,east
+2022/9/6,24.2,partly cloudy,Cloudy with occasional rain,24.8,82,1003.1,1008.1,1003.2,70,8.4,17.74,0.5,0.5,27.7,20,0,0,6,11.4,South-southwest,19.8,southwest,east southeast
+2022/9/7,23.5,fine weather,fine weather,17.8,62,1008.5,1013.6,1006.4,41,11.8,22.2,0,0,27.1,18.6,0,0,4.4,8.9,southwest,15.3,west southwest,West
+2022/9/8,20,Partly cloudy after clear skies,Partly sunny after cloudy,16,69,1013,1018.2,1017.1,48,9.1,21.85,0,0,24.9,13.8,0,0,1.9,4.4,south southeast,6.8,west southwest,North
+2022/9/9,20.8,fine weather,fine weather,16.7,70,1011.4,1016.5,1014.9,43,12.1,21.93,0,0,26.9,14.8,0,0,1.7,3.3,south southeast,5.7,south southeast,north northwest
+2022/9/10,20.4,fine weather,fine weather,16,69,1015.1,1020.2,1018.1,25,12.2,22.11,0,0,26.7,15.5,0,0,3.3,7.6,southeast,11.4,southeast,east
+2022/9/11,20.9,Sunny then sometimes cloudy,partly cloudy,18.8,76,1014,1019.1,1017.7,59,7.2,17.82,0,0,24.7,18.1,0,0,4.7,8.3,southeast,12.6,southeast,east southeast
+2022/9/12,22.7,Partly sunny after cloudy,Partly rain after cloudy,21.9,80,1011.6,1016.7,1015.5,62,6.9,16.65,0,0,26.9,19.8,0,0,4.3,7.4,southeast,10.9,southeast,east southeast
+2022/9/13,23.1,"Partly cloudy, then sunny",fine weather,21.4,76,1009.9,1015,1013.3,56,8,17.05,0,0,28,18.2,0,0,2.8,6.9,West,10.5,west northwest,northwest
+2022/9/14,19.1,fine weather,clear after cloudy,14.3,66,1013.8,1019,1016.2,46,11.6,20.94,0,0,23,14.6,0,0,4.2,8,northwest,13.2,north northeast,northwest
+2022/9/15,18.5,Partially cloudy,Cloudy,16,76,1011.2,1016.3,1014.5,56,8,18.2,0,0,23.3,13,0,0,1.7,3.9,south southeast,5.8,south southeast,north northeast
+2022/9/16,20.4,Cloudy with occasional rain,Cloudy with occasional rain,18.3,76,1010.2,1015.3,1014.3,65,0.1,7.68,0,0,23.8,16.5,0,0,3.3,7.3,east southeast,11.2,east,east
+2022/9/17,23.2,partly cloudy,Cloudy,22.3,79,1008.9,1014,1012.4,60,7.4,15.74,0,0,27.7,19.3,0,0,1.7,3.3,south southeast,5.8,east northeast,northwest
+2022/9/18,22.1,rainy and sometimes cloudy,Partly cloudy after rain,24,91,1006.3,1011.4,1007.8,71,0,4.68,15,1,25.4,19.8,0,0,1.5,3.1,south southeast,5.2,west northwest,north northeast
+2022/9/19,21.4,Partly rain after cloudy,"Heavy rain, sometimes cloudy",23.1,90,995.7,1000.7,994.1,78,0,4.49,4.5,4,24.8,16.7,0,0,2.3,7,northwest,13.1,west northwest,northwest
+2022/9/20,15,"Partly cloudy, then sunny",Sunny then sometimes cloudy,11.6,68,998.7,1003.8,993.7,42,6.9,16.09,38,4,19,9.1,0,0,5.3,9.7,northwest,16.2,northwest,northwest
+2022/9/21,13.4,Partially cloudy,fine weather,10.3,69,1012.3,1017.6,1012.9,41,7.8,16.17,0,0,20.1,8.5,0,0,2.4,7,west northwest,11.4,West,north northeast
+2022/9/22,17.1,"Partly sunny, partly rainy, partly cloudy",Cloudy with occasional rain,14.2,73,1017.2,1022.5,1020.4,47,10.1,19.51,0,0,22.6,8.7,0,0,5.4,10.4,east southeast,15.2,southeast,east southeast
+2022/9/23,20.1,Partly cloudy after heavy rain,Cloudy with occasional rain,22,94,1009.5,1014.7,1009.2,82,0,3.33,37.5,4.5,22.3,18.9,0,0,2.7,6.7,east southeast,10.5,southeast,east southeast
+2022/9/24,20.2,"Cloudy after rain, sometimes sunny","Partly cloudy, then sunny",18.8,79,1004.2,1009.3,1006.5,51,3.7,9.31,5,1,23,16,0,0,3.8,7.9,West,11.8,west northwest,west northwest
+2022/9/25,18.3,"Partly sunny, partly rainy, partly cloudy",Cloudy,14.4,70,1010.8,1016,1013,45,10.3,17.72,0,0,23.7,13.3,0,0,2.7,7.2,west northwest,10.9,West,west northwest
+2022/9/26,18.2,partly cloudy,Sunny then sometimes cloudy,14.8,73,1011.7,1016.9,1015.7,37,9.6,18.48,0,0,24.3,13.7,0,0,2.6,6.3,west northwest,9.2,southwest,north northeast
+2022/9/27,17.8,Partially cloudy,Cloudy,14.3,71,1011.6,1016.8,1015.7,49,9.4,16.7,0,0,24.1,11.6,0,0,2.1,6.5,northwest,9.6,west northwest,north northeast
+2022/9/28,18.5,clear after cloudy,fine weather,16.2,76,1007.5,1012.7,1010.2,54,6.2,13.22,0,0,24,14.7,0,0,2.1,4.8,south southeast,8.2,South-southwest,east southeast
+2022/9/29,19.1,Sunny then cloudy with occasional rain,Partially cloudy,17.3,79,1006.9,1012,1009.7,59,4.9,12.37,0,0,24,14.2,0,0,3.1,6.8,west northwest,10.3,northwest,west northwest
+2022/9/30,20,fine weather,Partly cloudy after clear skies,19.1,82,1011.1,1016.2,1015.1,65,8.4,15.77,0,0,24.8,15.6,0,0,2.4,5.1,west southwest,8.4,southwest,north northeast
+2022/10/1,20,fine weather,fine weather,18.3,79,1011.9,1017.1,1015.5,55,10.8,17.32,0,0,25.8,15.6,0,0,2.1,4,southwest,6.4,West,west southwest
+2022/10/2,19.6,fine weather,partly cloudy,18.5,82,1016.8,1022,1018.8,62,9.6,16.39,0,0,24.2,14.9,0,0,3.4,7.3,east southeast,11.5,east southeast,east southeast
+2022/10/3,20.2,"Partly cloudy, partly rainy, partly sunny",rainy and sometimes cloudy,19.1,81,1014,1019.2,1012.5,70,1,8.29,0,0,22.9,17.5,0,0,3.5,6.9,east southeast,9.3,southeast,east southeast
+2022/10/4,17.9,heavy rain,"Partly cloudy, then sunny",18.6,89,1000.5,1005.7,1001.1,70,0,1.27,65,3.5,22.1,12.1,0,0,4.9,13.9,southwest,23.3,west southwest,northwest
+2022/10/5,10.3,Cloudy then sunny with occasional rain,Sunny then cloudy with occasional rain,8.7,70,1011.4,1016.7,1009.5,50,4,9.91,0,0,13.4,5.9,0,0,3.2,7.3,West,9.7,West,west northwest
+2022/10/6,9.6,partly cloudy,partly cloudy,7.3,63,1016.7,1022,1020.1,33,7,13.87,0,0,15.3,5.1,0,0,2.6,8.5,West,11.7,west northwest,north northwest
+2022/10/7,9.8,Partly rain after cloudy,cloudy after rain,8.6,72,1016,1021.4,1019,46,0.2,7.26,0.5,0.5,14.6,4.8,0,0,2.1,4.7,east,7.6,North,east northeast
+2022/10/8,12.5,Partially cloudy,Partly cloudy after clear skies,8.9,63,1016.7,1022.1,1018.4,41,8.7,15.99,0,0,17.4,8.2,0,0,2.9,8.6,northwest,11.3,northwest,northwest
+2022/10/9,13.8,Sunny then cloudy with occasional rain,Cloudy with occasional rain,11.3,72,1021.4,1026.8,1021.9,49,4.5,10.23,0,0,17.9,6.9,0,0,4.1,8.7,east southeast,15.5,east southeast,east
+2022/10/10,16.6,heavy rain,Partly cloudy after rain,17.8,94,1004.1,1009.3,1003.2,76,0,1.4,51.5,2,18.3,14.5,0,0,5.9,13.6,east southeast,22,east southeast,east southeast
+2022/10/11,15.4,"Rain, partly cloudy, partly clear, accompanied by thunder",Cloudy with occasional rain then clear,13.1,75,1002.9,1008.1,1003.9,51,4.9,11.5,10.5,4,18.9,13.5,0,0,5,11.8,west southwest,24.1,South-southwest,West
+2022/10/12,12.8,fine weather,fine weather,9.2,64,1018.8,1024.2,1016.6,42,10.1,15.22,0,0,18,7,0,0,3.8,8,west northwest,13.7,West,west northwest
+2022/10/13,11.9,fine weather,Sunny then sometimes cloudy,10.2,74,1022.7,1028.1,1024.5,49,10.5,15.9,0,0,17.8,5.5,0,0,2,5,southeast,7.9,south southeast,east northeast
+2022/10/14,14.4,fine weather,Cloudy,12.6,78,1016.7,1021.9,1019.2,55,8.2,14.31,0,0,19.9,9.2,0,0,2.9,6,east southeast,8.8,south southeast,northeast
+2022/10/15,17.3,"Partly cloudy, then clear with thunder",fine weather,15.4,79,1013.7,1019,1017.5,58,5.2,12.17,0,0,21.8,13,0,0,3.5,6.2,south southeast,8.9,southeast,east southeast
+2022/10/16,16.4,Sunny then sometimes cloudy,Cloudy,15.1,82,1013.4,1018.6,1013.3,62,5.5,12.08,0,0,20.6,12,0,0,2.3,4.4,east southeast,7,east southeast,east
+2022/10/17,14.1,Cloudy with occasional rain,Sunny and then a little rain,12.6,77,1003.8,1009,1004.8,48,3.9,8.83,4,3.5,20.3,6,0,0,3.3,8.3,West,17.7,West,west northwest
+2022/10/18,8.7,Sunny then sometimes cloudy,Partly cloudy with occasional rain,6.9,63,1008.4,1013.8,1010.3,38,5.6,10.89,0,0,13.2,4.9,0,0,3.9,10.6,West),16.6,West),west northwest
+2022/10/19,8.8,partly cloudy,fine weather,7.5,70,1013.5,1018.8,1016.8,37,9.6,15.05,0,0,14.6,3.7,0,0,3.6,9.7,west northwest,14.3,West,west northwest
+2022/10/20,12.2,"Partly cloudy, partly rain",fine weather,9.7,70,1015.7,1021,1020.1,44,5.8,10.07,0,0,16.7,5.3,0,0,4,11.1,West,16.2,West,West
+2022/10/21,15.3,partly cloudy,Partly cloudy with occasional rain,13.2,77,1015.8,1021,1017.3,49,4.7,9.75,0,0,20,10.3,0,0,2.5,6.4,West,9.2,West,west southwest
+2022/10/22,16.1,fine weather,Sunny then sometimes cloudy,12.8,72,1007.8,1013,1010,39,9.6,12.86,0,0,21.1,11.6,0,0,3.3,6.5,West,10.5,southwest,West
+2022/10/23,10.3,"Partly cloudy, then partly sunny",sunny shower,8.1,65,1006.7,1012.1,1010.1,43,1.3,6.31,0,0,14.2,4.7,0,0,3.8,8.8,West,12.2,West,west northwest
+2022/10/24,7.3,sunny and rainy,fine weather,7.2,72,1010.1,1015.5,1012.8,44,9.2,12.85,0,0,12.6,2.9,0,0,3.8,10.8,west northwest,17,West,northwest
+2022/10/25,7.3,fine weather,fine weather,5.6,60,1020.5,1025.9,1021.2,22,10.4,14.22,0,0,13.9,2,0,0,2,6.1,east,9.2,east,North
+2022/10/26,8.9,"Partly sunny, partly rainy, partly cloudy",fine weather,7.7,69,1023.7,1029.1,1027.3,42,7.2,10.19,0,0,15,3.4,0,0,2.3,4.8,south southeast,7,south southeast,north northwest
+2022/10/27,10,partly cloudy,Sunny then cloudy with occasional rain,8.8,72,1020.2,1025.6,1024.2,50,5.8,10.24,0,0,15.4,3.7,0,0,2.1,4.8,southwest,7.3,west southwest,North
+2022/10/28,12.4,Sunny and then a little rain,"Sunny after rain, sometimes cloudy",11,78,1017.7,1023,1021.5,48,7,11.45,1.5,0.5,17.6,7.8,0,0,2.2,4.6,southeast,7.1,southeast,south southeast
+2022/10/29,10.5,"Sunny, then rainy, partly cloudy",Partially cloudy,10.2,81,1016,1021.3,1020.3,60,6.5,10.38,1,0.5,14,6.9,0,0,3.4,8.1,West,12,west northwest,west northwest
+2022/10/30,11.4,fine weather,fine weather,10,76,1016.8,1022.1,1020.7,50,8.5,12.66,0,0,17.1,6.8,0,0,3.4,7.5,northwest,11.9,northwest,northwest
+2022/10/31,11.1,fine weather,partly cloudy,10,76,1021.6,1027,1024.4,56,9.7,12.71,0,0,15.5,5.2,0,0,2.6,5.1,southeast,7.9,east southeast,east southeast
+2022/11/1,13.5,Cloudy with occasional rain,"Cloudy after rain, sometimes sunny",10.9,72,1016.2,1021.5,1016,48,4.3,9.57,0.5,0.5,17.2,10.7,0,0,3.2,7.7,southeast,11.8,southeast,east southeast
+2022/11/2,10.6,partly cloudy,Sunny then cloudy with occasional rain,9,72,1011.6,1016.9,1015.1,42,9,11.38,3.5,1,14.8,6.3,0,0,2.8,6.6,west northwest,10.7,West,west northwest
+2022/11/3,7.6,rainy and sometimes cloudy,Cloudy then clear and snow,8.5,81,1006.8,1012.2,1010,57,0,1.66,9,1,9.4,5.5,0,0,2.5,6.4,north northwest,10.5,north northwest,northwest
+2022/11/4,5,Sunny then sometimes cloudy with occasional showers,"Clear, then cloudy with occasional snow and sleet",5.4,63,1007.6,1013,1010,40,6.8,9.58,0,0,10,0.9,0,0,4.2,10.3,west northwest,16,west northwest,west northwest
+2022/11/5,6,"Rain, sometimes cloudy, then fine, with sleet","Rain, sometimes cloudy, then clear",6.4,69,1010.8,1016.3,1014.8,44,5,9.69,0.5,0.5,10,0.1,0,0,3.4,9.1,West,13.5,West,west northwest
+2022/11/6,6.7,fine weather,Partly cloudy after clear skies,6.8,71,1014.5,1019.9,1017.3,39,8.2,11.19,0,0,13,1.3,0,0,2.7,6.7,west northwest,11.2,West,west northwest
+2022/11/7,6.1,Sunny then sometimes cloudy,Partially cloudy,6.7,73,1016.3,1021.7,1019.4,50,8,10.32,0,0,12.3,0.9,0,0,1.9,3.8,north northeast,5.4,west northwest,west southwest
+2022/11/8,6.9,"Cloudy after rain, sometimes sunny",Partially cloudy,8.5,85,1012.6,1018,1015.6,69,2.3,4.39,3,1,11.8,2.6,0,0,2.1,4.7,west southwest,6.4,north northwest,north northwest
+2022/11/9,8.7,partly cloudy,Partly cloudy after clear skies,7.7,71,1016.2,1021.6,1019.2,42,7.4,10.19,0,0,13.4,3.3,0,0,3,7.4,west northwest,10.8,West,west northwest
+2022/11/10,12,Partly cloudy after clear skies,fine weather,8.3,58,1015.1,1020.4,1018.5,34,6.7,9,0,0,16.5,2.9,0,0,4.8,8.5,west northwest,12.7,West,west northwest
+2022/11/11,5.7,fine weather,partly cloudy,5.8,65,1022.5,1028,1025.2,40,9.7,10.89,0,0,12.1,0.4,0,0,2.1,4.5,northwest,6.1,northwest,north northeast
+2022/11/12,9.9,Partially cloudy,partly cloudy,9.4,76,1016.2,1021.5,1014.8,55,6.8,8.76,0,0,16,2.4,0,0,2.4,5.3,west southwest,8.1,South-southwest,north northeast
+2022/11/13,13.4,Cloudy with occasional rain,Partly cloudy with occasional rain,12.4,79,999.4,1004.6,996.2,66,0,0.91,12,3.5,18.7,7.6,0,0,5.9,11.1,northwest,22.8,west southwest,northwest
+2022/11/14,6.6,Sunny with occasional rain and cloudy,Partly sunny after cloudy,6.6,68,1008,1013.4,1008.3,52,4.5,8.84,1,0.5,9.5,4.9,0,0,4.4,8.3,northwest,15.1,northwest,northwest
+2022/11/15,5.7,"Rain, partly cloudy, partly sunny",Partly sunny after cloudy,7.5,82,1005,1010.4,1008.4,65,1.1,4.17,0,0,9.5,2.4,0,0,2,5.8,West,9.6,west northwest,North
+2022/11/16,3.8,Partly cloudy with occasional rain,"Sunny then sleet, sometimes cloudy",5.9,74,1006.9,1012.3,1008.8,43,6.4,9.44,0,0,9.1,0.2,0,0,3.6,9.5,West,16.1,West,west northwest
+2022/11/17,4,"Partly cloudy, then occasional rain",fine weather,5.3,66,1017.2,1022.7,1017.2,44,8.1,10.5,0.5,0.5,8.7,0,0,0,3.2,8.8,west northwest,12.6,West,west northwest
+2022/11/18,5.1,"Cloudy, sometimes sunny, then rain","Cloudy after rain, sometimes sunny",7.4,82,1018,1023.5,1020.2,58,2.6,4.89,8,3,10.3,-0.6,0,0,1.8,4.8,east southeast,6.2,southwest,north northeast
+2022/11/19,6.9,fine weather,Sunny then cloudy with occasional rain,7.3,75,1019.6,1025,1020.2,47,8.6,9.95,0,0,12,2.7,0,0,3.1,6.6,northwest,11,northwest,northwest
+2022/11/20,10.8,Partially cloudy,"Partly cloudy, then rain",9.7,75,1019.3,1024.7,1021.1,57,3.8,7.27,0,0,14,3.4,0,0,5.2,9.2,east southeast,14.4,southeast,east southeast
+2022/11/21,12.6,sunny shower,"Sunny then rainy, sometimes cloudy",12.2,84,1011.8,1017,1013.8,69,3.8,6.52,0.5,0.5,16.4,8.3,0,0,2.4,5.2,east southeast,7.1,east southeast,South
+2022/11/22,5.6,fine weather,fine weather,5.6,61,1015.2,1020.6,1013.7,40,5.4,7.65,1,0.5,11.8,-0.2,0,0,4.9,10.3,west northwest,16.8,West,west northwest
+2022/11/23,4.9,partly cloudy,rainy and sometimes cloudy,6.3,71,1015.8,1021.3,1015.5,54,5.4,7.07,0,0,8.9,-1,0,0,3.2,6,east,9.7,east,east
+2022/11/24,8.5,Cloudy with occasional rain,fine weather,8.5,77,1009.4,1014.8,1012.8,52,3.1,6.57,0,0,12.9,2.3,0,0,3,6.1,northwest,9.6,northwest,west northwest
+2022/11/25,7.1,fine weather,Cloudy then sunny with a shower,6.8,68,1013.3,1018.7,1014.2,49,7.8,8.69,0,0,11.9,0.3,0,0,2.3,6.4,south southeast,10.6,South,north northeast
+2022/11/26,10.8,"Partly cloudy after rain, accompanied by thunder","Cloudy after rain, sometimes sunny",9.5,73,1002.6,1007.9,1005.1,53,1,2.75,8.5,2,15,4.8,0,0,4.8,10.1,southwest,17.9,southwest,west northwest
+2022/11/27,3.5,Partly cloudy with occasional sleet,Cloudy with occasional snow and occasional clear skies with sleet,5.3,67,1013.4,1018.9,1010,54,2.5,5.75,0,0,5.3,2.4,0,0,4.7,8.1,west northwest,12.8,West,west northwest
+2022/11/28,7.2,"Rain, sometimes sunny, then cloudy, with sleet",partly cloudy rain,8,77,1018.5,1023.9,1017.8,68,1.4,4.56,0,0,10.9,1.4,0,0,2.2,5.2,east,7.6,east,east
+2022/11/29,12.5,rainy and sometimes cloudy,"Cloudy after rain, sometimes sunny",11.6,79,1003.2,1008.5,1002.6,61,0.8,2.76,17.5,2,18.4,8.3,0,0,4,9.7,southwest,16.5,west southwest,southwest
+2022/11/30,1.7,"Partly cloudy with occasional snow, with sleet",snow sometimes cloudy,5.2,73,1006.9,1012.3,1006.7,55,0.2,2.99,3,0.5,8.4,-4,6,6,5.8,9.7,west northwest,15.3,west northwest,northwest
+2022/12/1,-3.1,snow sometimes cloudy,Clear skies after snow,4.3,89,1013.4,1019,1016.6,72,1.8,5.75,10,1.5,-1.4,-4.7,20,17,4.6,9.5,west northwest,16,west northwest,west northwest
+2022/12/2,-3.5,"Partly sunny, partly snowy, partly cloudy",Cloudy with occasional snow,3.8,80,1017.9,1023.5,1018.6,51,8.2,9.23,2.5,1,-0.6,-8.1,23,3,2.6,6.1,West,8.5,West,north northwest
+2022/12/3,0.9,Cloudy with occasional snow and sleet rain,"Sleet, occasional rain, cloudy, temporary snow",5.9,89,1013.8,1019.4,1012.3,70,0,2.36,11,1.5,4.2,-2.5,10,1,2.8,9.9,West,16.8,West,North
+2022/12/4,-1.5,"Partly cloudy, partly snow",Snow sometimes sunny partly cloudy,4,71,1012.8,1018.4,1013.1,56,3.3,6.27,0.5,0.5,3.4,-5.1,1,1,5,9.4,west northwest,15.3,west northwest,west northwest
+2022/12/5,-3.2,"Snow, partly cloudy, partly sunny","Partly cloudy, then sunny",3.7,78,1015.2,1020.8,1019.7,60,5.6,6.93,0,0,-0.8,-5.7,2,1,3.4,7.5,West,10.8,west southwest,west northwest
+2022/12/6,-0.1,"Partly cloudy, then partly snow","Snow, partly cloudy, partly sunny with sleet",5,81,1009.7,1015.2,1012.1,58,0.4,3.98,0.5,0.5,2.8,-3.4,0,0,2,4,northwest,5.5,northwest,north northwest
+2022/12/7,0.4,Cloudy with occasional snow,snow sometimes cloudy,5.6,89,1007.6,1013.1,1011.2,58,2,4.47,4.5,0.5,3.1,-1.8,3,7,2.6,6.9,west northwest,12,west northwest,west northwest
+2022/12/8,-0.6,Sunny with occasional snow and cloudy,"Partly cloudy, partly snow",4.6,78,1011,1016.5,1013.5,50,5.3,7.61,3,1.5,2,-3.4,13,11,3.6,8.2,west northwest,13.4,west northwest,west northwest
+2022/12/9,-0.3,"Partly cloudy, then snow, occasional sleet",Cloudy with occasional snow,5.3,88,1013.7,1019.2,1017.3,64,3.1,6.59,1.5,1,2.5,-3.7,5,1,1.6,4.3,west northwest,6.3,west northwest,east northeast
+2022/12/10,0.2,Sunny with occasional snow and sleet rain,partly cloudy with sleet,5.5,89,1011.5,1017.1,1016,65,4.9,6.6,2,1,4.4,-3.7,0,0,2,6.8,West,10.5,west northwest,North
+2022/12/11,-0.3,partly cloudy,partly cloudy,4.4,73,1011,1016.6,1014.6,54,3.8,4.77,0,0,3.3,-2.9,0,0,2.6,6,West,8.9,west northwest,northwest
+2022/12/12,1.2,Partially cloudy,Cloudy,4.1,62,1016,1021.6,1018.4,37,5.7,7.97,0,0,4.4,-2.3,0,0,2.7,6.6,south southeast,11.7,south southeast,west northwest
+2022/12/13,5.1,"Rain, partly cloudy, partly sunny",Cloudy after rain with occasional snow and sleet,6.7,77,1001.4,1006.8,1002.2,58,1.2,2.24,7,1,8.2,0.7,0,0,4.4,11,West,17.5,West,west northwest
+2022/12/14,-3.2,snow sometimes cloudy,snow,3.9,81,998.7,1004.2,1000.6,59,0.1,2.45,8,1,1.7,-6.5,12,12,5.5,11.3,West,17.2,west northwest,west northwest
+2022/12/15,-4.1,snow,snow,4,89,1004.2,1009.8,1008.3,68,0,2.83,20.5,1,-3.1,-5.4,32,22,5.9,11.5,West,18.2,West,west northwest
+2022/12/16,-4.6,snow sometimes cloudy,snow,3.6,83,1009.3,1014.9,1010.7,57,2,5.16,4.5,1,-2.9,-5.6,33,10,4.9,10.6,West,17.7,West,west northwest
+2022/12/17,-2.7,Snow sometimes sunny then cloudy,"Cloudy after snow, sometimes sunny with sleet",4.3,85,1008.3,1013.9,1001.2,68,2.6,5.34,8.5,1,1.2,-6.2,35,6,2.8,8.7,northwest,11.8,northwest,north northwest
+2022/12/18,-5,cloudy sometimes sunny then snow,"After snow, partly cloudy and partly sunny",3.4,82,997.7,1003.2,1000.3,57,2.2,5.43,7.5,1,-1.7,-7.3,39,12,3.8,9.8,west northwest,15.9,west northwest,west northwest
+2022/12/19,-6.3,"After snow, partly cloudy","Clear, then snow, sometimes cloudy",2.9,78,1007.1,1012.8,1006.3,58,7.2,8.5,1.5,1,-3.4,-9.1,41,2,3.3,7.4,west northwest,12.3,west northwest,west northwest
+2022/12/20,-4.1,snow sometimes cloudy,snow sometimes cloudy,3.9,86,1012,1017.6,1016,67,2.4,5.68,2.5,0.5,-1.8,-8.8,34,4,3.5,7.9,west northwest,12.2,West,west northwest
+2022/12/21,-0.1,"Partly cloudy, partly snow, partly sunny","Cloudy, sometimes sunny, then rain",4.6,76,1011.9,1017.4,1012.9,59,3.2,6.28,0,0,3,-3.1,32,0,2.3,6,east,8.8,east,west northwest
+2022/12/22,5,rainy and sometimes cloudy,Rain with occasional clouds and sleet,7.6,87,992.1,997.5,983.4,75,0,1.6,17.5,2.5,6.6,2.8,26,0,7.6,11.9,east,18.8,east northeast,east
+2022/12/23,3.3,Partly cloudy with sleet,Cloudy with occasional snow and sleet,5.6,72,979.9,985.2,983.6,54,0,3.49,0.5,0.5,5,1.6,9,0,4.1,8.8,west northwest,13.5,West,West
+2022/12/24,2.9,"After rain, sleet, sometimes cloudy","Sunny, occasional snow, sleet, cloudy",5.8,78,986.5,991.8,984.3,59,3.6,5.21,4.5,1,5.4,0,8,5,5.7,10,north northwest,15.4,north northwest,north northwest
+2022/12/25,2.8,Cloudy then sunny and sleet,Cloudy with occasional sleet,5.2,70,996.6,1002,999.8,55,7.7,8.24,0,0,4.8,1.5,6,0,7,9.8,northwest,15.3,northwest,northwest
+2022/12/26,3.4,"Sleet, occasional cloudy, temporary rain and clear skies",Partly sunny with sleet,6,77,1004.3,1009.8,1003.8,62,3.1,4.34,0,0,5.7,-0.6,4,0,5.5,8.5,northwest,12.8,northwest,northwest
+2022/12/27,2.3,Partially cloudy,"Clear, then cloudy, then snow",5.4,76,1013.8,1019.3,1014.9,53,4,6.18,0,0,6.3,-1.4,2,0,3.1,7.7,northwest,10.9,west northwest,north northwest
+2022/12/28,1,Cloudy then sleet sometimes sunny,"Snow, partly cloudy, partly sunny",5.8,88,1012.3,1017.9,1013.3,74,0.2,2.34,0.5,0.5,4,-0.6,5,4,1.8,4.2,northwest,6.3,north northwest,North
+2022/12/29,-3,"Snow, partly cloudy, partly sunny","Clear, then snow, partly cloudy",4.3,87,1009.5,1015.1,1012.8,65,2.3,5.45,12,1.5,-0.2,-6.5,23,18,3.8,10,west northwest,15.5,west northwest,west northwest
+2022/12/30,-2.8,snow sometimes cloudy,cloudy with occasional snow,4.3,87,1014.5,1020.1,1018.4,74,2.3,5.35,0.5,0.5,-0.7,-6.8,19,3,2.8,5.8,west northwest,8.6,west northwest,west northwest
+2022/12/31,0.9,Cloudy,After cloudy snow with occasional sleet,4.8,75,1014.2,1019.7,1016.5,62,0.9,4.82,0,0,3.1,-2.7,17,0,2.8,6.7,West,10.8,West,West
+2023/1/1,-0.8,Snow with occasional clouds and sleet,snow,4.9,84,1008.5,1014,1012.3,58,1.3,4.65,3,0.5,2.9,-5.6,16,6,4,8.3,west northwest,13.9,west northwest,west northwest
+2023/1/2,-6.6,snow sometimes cloudy,snow,3.1,83,1008.9,1014.6,1012.7,56,1.8,5.91,4.5,0.5,-4.9,-7.9,22,8,4.7,10.3,west northwest,15.7,west northwest,west northwest
+2023/1/3,-6,snow,snow sometimes cloudy,3.5,89,1007.7,1013.3,1011.7,75,0.1,3.61,10.5,1,-4.5,-7.4,37,17,4,6.9,West,10.2,west northwest,west northwest
+2023/1/4,-6.6,"Snow, partly cloudy, partly sunny",snow sometimes sunny,3.1,82,1008.5,1014.1,1011.5,64,2.2,5.59,2,0.5,-3.7,-10.6,35,1,3.8,8,west northwest,13.2,west northwest,west northwest
+2023/1/5,-3.2,"Snow, partly cloudy, partly sunny",cloudy with occasional snow,3.8,79,1011.4,1017,1016,57,1.1,4.9,3.5,1,-1.3,-8.6,38,9,3.1,7,west northwest,11.2,West,west northwest
+2023/1/6,-1.5,"Partly cloudy, then occasional snow","Snow, partly cloudy, partly sunny",4.2,77,1012,1017.6,1015.2,56,2.5,5.98,0.5,0.5,1.8,-3.8,31,0,2.5,6.5,west northwest,9.6,west northwest,west northwest
+2023/1/7,-2,fine weather,Partially cloudy,4,77,1008.5,1014.1,1012.5,52,8.1,8.52,0,0,2.4,-6.7,27,2,1.7,3.4,northwest,4.7,west northwest,northwest
+2023/1/8,-2.1,fine weather,cloudy sometimes sunny then snow,3.7,72,1012.7,1018.3,1015.5,50,8.1,8.96,0,0,3,-6.7,24,0,2.5,5.6,west northwest,8.2,west northwest,west northwest
+2023/1/9,-0.6,"After snow, sleet, sometimes cloudy",fine weather,5,85,1008.3,1013.8,1010.3,67,1.9,5.11,3.5,0.5,3.4,-4.8,24,4,3.1,6.8,north northwest,10.9,northwest,northwest
+2023/1/10,-3.8,fine weather,Sunny then cloudy with occasional snow,3.1,68,1010.6,1016.2,1012.1,48,8.4,9.33,0,0,-0.2,-6.6,20,0,4.2,9.5,northwest,13.1,northwest,west northwest
+2023/1/11,0.7,Cloudy with occasional snow and sleet,Partly cloudy with sleet,5.3,81,1013.2,1018.8,1017.4,68,1.2,3.7,0.5,0.5,5.2,-5.5,20,1,2.3,4.9,West,7.2,west northwest,north northeast
+2023/1/12,3.6,partly cloudy,"Partly sunny, partly rainy, partly cloudy",5.9,75,1015,1020.5,1017.6,52,8,8.82,0,0,8,-0.6,17,0,2.8,5.5,west northwest,7.8,west northwest,west northwest
+2023/1/13,5.7,Cloudy with occasional rain,partly cloudy rain,7.5,82,1010.4,1015.8,1009.9,57,3.8,6.47,0,0,11.5,-1,15,0,2.2,5.2,West,8,west southwest,north northeast
+2023/1/14,3.3,Cloudy after rain with sleet,"Partly cloudy, then snow",6.5,83,1003.8,1009.2,1007.3,63,0,2.55,6,1,5.1,0.7,11,0,3.3,7.8,northwest,11.6,northwest,northwest
+2023/1/15,-1.5,snow,Clear skies after snow,5.1,93,1008.6,1014.2,1011.4,64,0,2.71,14,1,0.8,-2.1,40,33,2.2,5.1,east,9.1,east,east
+2023/1/16,-2.4,"Clear, then cloudy, then snow","Clear, then cloudy, then snow",3.8,73,1007.6,1013.1,1010.4,54,5.9,8.78,5.5,1,0.9,-6.5,43,3,4.5,7.3,northwest,11,northwest,northwest
+2023/1/17,-4.9,Cloudy with occasional snow,Temporary snow after cloudy,3.3,79,1016,1021.7,1018.2,62,1.9,6.24,0,0,-2.2,-7,34,0,2.4,8,west northwest,10.4,west northwest,west northwest
+2023/1/18,-3.8,"Partly cloudy, partly snow",Sunny then sometimes cloudy,3.4,73,1014.3,1019.9,1017.1,56,3.5,7.5,0,0,0.6,-7.6,29,0,3,8.1,northwest,12.6,north northwest,northwest
+2023/1/19,-3.2,"Clear, then snow, sometimes cloudy","After snow, sometimes sleet, sometimes cloudy, partly sunny",3.9,77,1015.5,1021.2,1015.1,50,5.2,7.52,1.5,0.5,1.2,-9.8,26,2,2.2,3.9,east,6.3,east northeast,east
+2023/1/20,0.8,"Clear, then cloudy, then snow","Cloudy with occasional sleet, then some snow",5.2,80,1003.7,1009.2,1001,49,4.6,6.86,9,1,2.9,-1.9,35,11,3.6,8.2,east southeast,12.6,east southeast,east
+2023/1/21,-3.8,"Snow, partly cloudy, partly sunny",Snow Temporarily cloudy then sometimes sunny,3.6,77,1013.6,1019.2,1001.8,53,5,8.74,1.5,0.5,0.1,-7,35,3,6,12,northwest,17.9,west northwest,west northwest
+2023/1/22,-6.9,"Snow, partly cloudy, partly sunny",Sunny and sometimes snow,3,82,1019.1,1024.9,1023.3,68,4.3,7.86,1,0.5,-3.3,-11.6,34,2,2.7,7.1,west northwest,11.3,west northwest,west northwest
+2023/1/23,-5.2,Sunny then cloudy with occasional snow,"Cloudy after snow, sometimes sunny",3.3,77,1012.3,1017.9,1004.7,49,3.4,6.55,5,1.5,0.2,-11.4,39,8,3.1,11.5,West,16.4,West,east northeast
+2023/1/24,-7.9,cloudy with occasional snow,Partly cloudy with occasional snow,2.6,72,998.8,1004.4,1002,57,0,4.81,1,0.5,-3,-13,37,0,4.3,9.7,northwest,14.4,northwest,northwest
+2023/1/25,-10.6,snow sometimes cloudy,snow,2,73,999.6,1005.3,1002.8,50,0.9,5.71,7,0.5,-8.7,-13.1,44,12,6.4,11.9,west northwest,18.4,west northwest,west northwest
+2023/1/26,-6.5,cloudy then snow sometimes sunny,"Snow, sometimes cloudy, then clear",2.7,73,1006.4,1012,1007.9,55,3.4,8.02,3,0.5,-4,-9.2,47,3,5.4,10.7,west northwest,18.1,northwest,west northwest
+2023/1/27,-6.7,Cloudy with occasional snow,"Clear, then snow, partly cloudy",3,81,1003.6,1009.2,1005,60,1,6.87,0,0,-2.7,-10.4,40,0,2.2,4,northwest,5.7,northwest,north northwest
+2023/1/28,-8.1,snow,snow sometimes cloudy,2.8,84,999.6,1005.2,1003.5,66,1.3,6.71,3.5,0.5,-6.2,-10.2,43,7,4.3,9.3,West,13.8,West,west northwest
+2023/1/29,-9,"Snow, partly cloudy, partly sunny",fine weather,2.4,78,1006.5,1012.2,1007.4,63,5.7,8.79,1.5,0.5,-6.3,-11.4,43,1,3.2,7.5,West,11,West,west northwest
+2023/1/30,-6.4,partly cloudy,Snow sometimes sunny partly cloudy,2.9,75,1006.2,1011.9,1009.1,52,5,8.09,0.5,0.5,-1.9,-12.7,39,2,2.2,6.2,west northwest,10.3,west northwest,north northwest
+2023/1/31,-5.3,snow sometimes cloudy,snow sometimes cloudy,3.4,82,1009.3,1015,1012.4,53,2.8,7.68,1.5,0.5,-2.7,-7.9,40,4,3.4,10.2,west northwest,15.2,west northwest,west northwest
+2023/2/1,-1.5,Cloudy then snow Occasional sleet rain,"Cloudy with temporary snow, then clear with sleet",4.9,88,1000.5,1006,996.3,71,0.2,3.1,10.5,1.5,3.1,-6.9,47,10,3.9,12.9,northwest,19.1,northwest,east
+2023/2/2,-5,snow sometimes sunny,snow sometimes cloudy,3.1,74,1008.3,1013.9,1004,52,5.2,8.95,0,0,-0.9,-8.8,44,2,5.6,10.5,West,16.2,west northwest,west northwest
+2023/2/3,-6,snow sometimes cloudy,cloudy with occasional snow,3.2,81,1013.2,1018.9,1017.9,63,4.2,8.8,1,0.5,-3.2,-9.9,43,2,2.4,6.5,west northwest,10.1,West,West
+2023/2/4,-4.2,"Cloudy after snow, sometimes sunny",Partly cloudy with occasional snow,3.5,77,1011.9,1017.5,1015.4,63,4.7,9.56,0,0,-1,-7.1,41,0,2.2,5.3,west northwest,7.8,west northwest,west northwest
+2023/2/5,-3.3,Partly cloudy with occasional snow,Temporary sleet after snow Temporarily cloudy,3.9,81,1014.7,1020.3,1018.6,54,5.9,9.99,0.5,0.5,1.2,-8.8,42,4,2.7,7.4,West,10.5,West,west northwest
+2023/2/6,0.1,Partially cloudy,"Clear, then occasional snow, partly cloudy",5,82,1013,1018.6,1016.7,55,7.2,10.21,2,1,3.5,-3.9,44,3,2.3,5,northwest,8.8,northwest,West
+2023/2/7,-2.2,fine weather,Partially cloudy,3.6,70,1015.8,1021.4,1019.4,43,9.1,11.64,0,0,2,-7.6,40,1,2.5,6.1,West,8.4,West,northwest
+2023/2/8,-4.1,"Clear, then cloudy, then snow",Sunny and sometimes snow,3,67,1014,1019.6,1017.6,42,7.3,11.67,0,0,1.1,-8.9,39,1,1.8,5,north northwest,7.3,north northwest,north northwest
+2023/2/9,-5.2,Sunny then sometimes cloudy,partly cloudy,2.8,69,1019.6,1025.3,1019.2,41,5.4,10.61,0,0,-1.7,-8.3,39,0,3.2,7.4,north northwest,11.6,northwest,west northwest
+2023/2/10,-3.2,Temporary snow after cloudy,Cloudy with occasional snow and clear skies,3.6,73,1020.1,1025.7,1019.8,51,0,5.8,0,0,0,-9.1,38,0,2.5,5.5,east northeast,8.7,east,east
+2023/2/11,0.3,"Clear, then cloudy with occasional snow and sleet","Cloudy with occasional clear skies, followed by snow and sleet",5.1,82,1015.8,1021.4,1019.4,60,3.7,9.81,0,0,4.1,-4.9,38,0,1.7,3.8,West,5.5,West,west northwest
+2023/2/12,1.4,Cloudy with occasional sleet,partly cloudy,5.6,82,1013.7,1019.2,1017.4,65,3.2,8.86,4.5,1,4.3,-1.7,38,4,2.9,7.1,West,10.6,west northwest,north northwest
+2023/2/13,-0.7,Cloudy then sunny with occasional snow,fine weather,4.5,79,1008.3,1013.9,1010,56,3.1,8.18,0,0,2.9,-3.8,33,1,2.2,5.9,northwest,9.2,northwest,northwest
+2023/2/14,-3.3,"Clear, then cloudy, then snow","Snow, sometimes cloudy, then clear",3.5,74,1003.5,1009.1,1005.7,43,5.8,10.71,4.5,1,-0.3,-5.6,42,11,3.2,5.6,northwest,8.2,West,northwest
+2023/2/15,-6.3,"Partly sunny, cloudy after snow",Sunny and sometimes snow,2.7,71,1014.9,1020.6,1013.8,45,7.9,12.4,0,0,-2.5,-10.2,42,0,3.1,6.4,northwest,9.2,northwest,northwest
+2023/2/16,-4.7,"Snow, partly cloudy, partly sunny","Partly cloudy, partly snow",3.4,76,1020.3,1026,1024.8,58,4.6,10.77,0,0,0,-11.2,38,0,3.1,9,West,14,west northwest,West
+2023/2/17,1.3,"Partly cloudy, sleet after snow","Sleet, sometimes cloudy, partly sunny",5.6,84,1016.9,1022.4,1019.5,60,1.3,7.62,1.5,0.5,5.2,-2.7,36,0,2.4,5.8,West,8.2,west southwest,West
+2023/2/18,3.8,fine weather,partly cloudy,5.3,68,1013.5,1019,1015.7,37,8.9,13.46,0,0,7.8,0.8,32,0,3,8.3,West,11.9,West,West
+2023/2/19,1.7,Partly cloudy with sleet,Temporary sleet rain after snow Occasionally cloudy,5.9,86,1000.7,1006.1,998.2,61,0,5.17,3,1,4.7,0.5,30,2,2,7,southeast,11.3,southeast,east southeast
+2023/2/20,-2.6,"Snow, partly cloudy, partly sunny",Sunny and temporary snow,3.9,76,1002.8,1008.3,998.3,60,2.2,8.52,2,1,1.2,-5.5,33,3,5.3,9.7,northwest,14.7,northwest,northwest
+2023/2/21,-3.9,Sunny then cloudy with occasional snow,Sunny and temporary snow,3.3,73,1014.8,1020.4,1015,48,5.7,11.48,0,0,-0.3,-6.5,31,0,4,6.4,northwest,10.2,northwest,northwest
+2023/2/22,-3,"Snow, partly cloudy, partly sunny",snow,4,81,1020.7,1026.4,1023.9,50,4,11.71,1.5,0.5,1.4,-8.8,35,8,3.1,7.7,west northwest,10.9,west northwest,West
+2023/2/23,1.2,"Partly cloudy, then rain, occasional sleet",Partially cloudy,5.9,89,1012.9,1018.5,1015.4,71,2.6,8.19,2.5,1,5.3,-1.9,35,0,2.3,6.9,west southwest,11,west southwest,west southwest
+2023/2/24,0.2,"Partly sunny, partly snowy, partly cloudy",Snow sometimes sunny partly cloudy,4.4,73,1012,1017.6,1016,42,8.2,14.6,0.5,0.5,4.5,-4.9,29,2,2,3.8,south southeast,6.1,South-southwest,North
+2023/2/25,-1.1,"Partly cloudy, partly snow","Clear, then snow, sometimes cloudy",4.3,76,1012.8,1018.4,1015.9,50,7.8,14.99,0.5,0.5,2.2,-4.9,30,1,4,9.1,West,13.3,West,northwest
+2023/2/26,-3.6,cloudy then snow sometimes sunny,Sunny and sometimes snow,3.5,74,1017.6,1023.2,1020,47,6.5,11.67,2.5,0.5,-0.3,-6.7,30,2,3.9,9.3,northwest,15.6,North,northwest
+2023/2/27,1.5,partly cloudy,fine weather,4.5,63,1021.6,1027.2,1024.1,48,9.4,15.32,0,0,7.2,-8.7,28,0,4.1,10,West,15.4,West,West
+2023/2/28,8.1,Partly cloudy with occasional rain,partly cloudy,6.8,64,1012.8,1018.2,1012.9,47,6.3,13.21,0,0,11.3,4.7,24,0,4.9,8.8,West,15.6,West,West
+2023/3/1,6.2,Partially cloudy,Sleet and sometimes cloudy,6,64,1008.9,1014.3,1012.4,43,6.3,12.79,0,0,9.2,1.6,12,0,3.8,8,West,12.4,West,west northwest
+2023/3/2,1.6,Partially cloudy,Clear and occasional snow,4.7,70,1008.3,1013.8,1010.7,41,7,14.24,1,0.5,5.1,-1.8,8,1,3.7,8.8,northwest,13.1,north northwest,northwest
+2023/3/3,0.4,Snow sometimes sunny partly cloudy,"Snow, partly cloudy, then sleet, clear skies",4.9,79,1015.1,1020.7,1018.6,36,4.7,12.86,5,1.5,4.3,-2.9,13,11,3.1,11,west northwest,15.9,West,northwest
+2023/3/4,0.5,Sunny then sometimes cloudy,fine weather,4.6,74,1019.1,1024.7,1020.6,47,5.3,11.74,0,0,5.1,-3.4,12,0,3.2,8.8,West,12.8,West,west northwest
+2023/3/5,1.3,fine weather,fine weather,4.4,66,1021.3,1026.9,1024.9,44,10.8,16.85,0,0,7.4,-5.3,7,0,3.2,7.8,west northwest,10.6,west northwest,West
+2023/3/6,4.8,partly cloudy rain,partly cloudy,6.7,77,1015.9,1021.4,1018.7,65,1.2,8.93,0,0,9,-0.5,2,0,3.3,8.2,southwest,12.6,southwest,southwest
+2023/3/7,6.7,Cloudy with occasional rain,Sunny then sometimes cloudy,8.3,84,1011.9,1017.4,1015.8,73,0.2,4.69,0,0,10.3,1.9,0,0,2.6,7.2,southwest,10.3,southwest,southwest
+2023/3/8,7.2,Cloudy with occasional rain,Partially cloudy,8.6,84,1011,1016.4,1013.1,69,1.6,7.57,0,0,13.2,1,0,0,3.5,7.7,southwest,12.3,southwest,southwest
+2023/3/9,4,partly cloudy,rainy and sometimes cloudy,6.9,85,1015.2,1020.7,1017.5,50,1.5,6.12,0,0,7.2,0.6,0,0,4.1,7.4,east southeast,11.6,east southeast,east
+2023/3/10,6.4,cloudy after rain,Partially cloudy,8.4,86,1011.3,1016.7,1013.4,70,1.5,5.77,10,1,11,2.8,0,0,4.8,7.5,West,11.4,West,east southeast
+2023/3/11,4.9,fine weather,partly cloudy,5.9,70,1021.4,1026.9,1023.7,47,10.3,16.38,0,0,10.1,1.6,0,0,4.2,8.1,northwest,12.6,northwest,west northwest
+2023/3/12,5.2,Partly cloudy after clear skies,partly cloudy,7.1,81,1019.1,1024.6,1017.9,60,8.1,13.82,0,0,10.3,0.1,0,0,4.7,9.1,east,14.1,east southeast,east southeast
+2023/3/13,6.7,rainy and sometimes cloudy,"Partly cloudy, then occasional snow",7.8,76,1007.2,1012.6,1008.4,52,0,1.81,4,0.5,11.1,1.2,0,0,6.4,10.4,southwest,18.6,west southwest,West
+2023/3/14,2.7,partly cloudy,fine weather,3.8,52,1018,1023.6,1018.2,36,7.3,15.72,0,0,6.6,-0.6,0,0,3.2,5.9,west northwest,8.9,West,west northwest
+2023/3/15,4.7,Sunny then sometimes cloudy,Partially cloudy,5.4,63,1021.7,1027.2,1025,36,10.2,17.36,0,0,11.2,-1.4,0,0,3.7,7.1,east,10,east,east
+2023/3/16,4.8,rainy and sometimes cloudy,"Partly sunny, cloudy after snow",6.7,77,1015.4,1020.9,1017.2,63,0.2,2.77,2,0.5,8.8,1,0,0,3,6.7,West,9.6,West,West
+2023/3/17,3,Partly cloudy with occasional snow and sleet,fine weather,4.2,57,1016.5,1022,1020.3,36,3.9,11.83,0,0,7.3,-1.5,0,0,4.6,11.7,West,19.1,west southwest,West
+2023/3/18,2.9,Partially cloudy,partly cloudy,4.3,59,1011.5,1017,1013.4,33,7.9,16.42,0,0,8.8,-2.3,0,0,2.9,7.2,west northwest,10.3,West,west northwest
+2023/3/19,5.3,fine weather,fine weather,4.6,55,1008.5,1013.9,1012.6,23,10.6,19.78,0,0,11.1,-1.7,0,0,4.3,10.2,West,16.7,West,West
+2023/3/20,8.3,fine weather,partly cloudy,5.5,53,1010.8,1016.2,1014.6,21,11.5,20.25,0,0,14.5,2,0,0,3.6,7.7,southwest,11.1,southwest,west northwest
+2023/3/21,8.7,fine weather,fine weather,6.1,59,1011.5,1016.8,1015.1,23,11.2,20.06,0,0,15.1,2.2,0,0,2.1,4.3,south southeast,5.9,south southeast,South
+2023/3/22,9.5,fine weather,partly cloudy,8.1,68,1012.3,1017.7,1016.3,53,10.5,19.06,0,0,15.6,3.3,0,0,1.7,4,east southeast,6,southeast,south southeast
+2023/3/23,10.8,Partially cloudy,rainy and sometimes cloudy,10.2,79,1006,1011.3,1003.1,59,8.4,15.83,2,0.5,16.2,5.6,0,0,1.6,4.2,west northwest,5.6,west northwest,west northwest
+2023/3/24,7.5,Partially cloudy,Partially cloudy,6.6,62,1004,1009.4,1000.3,25,9.2,18.79,1,0.5,11.9,0.4,0,0,5.9,10.3,north northwest,16.9,North,north northwest
+2023/3/25,3.9,Partially cloudy,partly cloudy,5.2,64,1015.2,1020.7,1019.2,44,7.6,17.65,0,0,9.6,-1.6,0,0,2.1,4.6,south southeast,7,south southeast,southeast
+2023/3/26,5.6,rainy and sometimes cloudy,"Cloudy after rain, sometimes sunny",7.9,87,1010,1015.4,1009.5,70,0,4.26,13.5,1,9.4,2.5,0,0,3.9,9,east southeast,13.9,east southeast,northwest
+2023/3/27,5,"Sunny, then cloudy with occasional rain and sleet",fine weather,5.1,60,1010.4,1015.8,1008.9,29,8.4,16.48,0.5,0.5,9.4,0.5,0,0,6,13,West,19.2,West,West
+2023/3/28,5,fine weather,fine weather,4.8,58,1019.5,1025,1023.3,21,11.9,21.64,0,0,11.2,-0.8,0,0,2.9,6.5,west northwest,8.7,West,southwest
+2023/3/29,4.8,"Cloudy, sometimes sunny, then rain",fine weather,6.4,75,1018.6,1024.1,1022.4,56,4.5,12.67,0,0,10.7,-0.5,0,0,2,6.6,west northwest,9.1,northwest,north northeast
+2023/3/30,7.6,fine weather,partly cloudy,7.6,74,1015,1020.4,1018.1,37,9,18.09,0,0,13.3,1.7,0,0,2.9,6.4,west southwest,9.2,west southwest,east northeast
+2023/3/31,7.6,"Rain, sometimes cloudy, then clear",fine weather,7.8,75,1010.2,1015.6,1013.3,46,5.4,12.11,4.5,1.5,13.9,3,0,0,2.9,7.5,West,10.8,West,northeast
+2023/4/1,6.1,fine weather,fine weather,5.5,61,1013.8,1019.3,1016.5,31,12.2,22.71,0,0,12.7,0.5,0,0,5.1,10.7,northwest,14.3,northwest,northwest
+2023/4/2,5.3,fine weather,fine weather,6.4,73,1017.7,1023.2,1021.6,50,10.1,19.51,0,0,10.6,0.6,0,0,2.5,5.7,southeast,8,southeast,north northeast
+2023/4/3,6.6,fine weather,fine weather,7.2,75,1019.5,1024.9,1024,55,12,22.34,0,0,12.4,0.4,0,0,1.7,3.6,south southeast,5.6,south southeast,south southeast
+2023/4/4,9.6,Sunny then sometimes cloudy,Cloudy,6.3,56,1017.9,1023.2,1021.1,23,10.3,20.47,0,0,17.2,2.2,0,0,2.9,7.5,west northwest,11.6,West,west northwest
+2023/4/5,11.6,Cloudy,Cloudy with occasional rain,8,59,1015,1020.3,1017.7,33,1.2,11.54,0,0,15.1,8.8,0,0,2.6,4.5,southeast,6.1,south southeast,east southeast
+2023/4/6,12.1,rainy and sometimes cloudy,rainy and sometimes cloudy,11.8,83,1006,1011.3,1007.3,56,0,5.05,2,1,16.5,9.2,0,0,2.9,7.4,southwest,11.9,South-southwest,South-southwest
+2023/4/7,11.1,rain,Cloudy with occasional rain,12.5,94,1000.3,1005.6,1003.4,85,0,2.89,14.5,1.5,13.4,8.6,0,0,2.7,5.4,South-southwest,9.2,South-southwest,west northwest
+2023/4/8,8,Cloudy then sunny with occasional rain,Cloudy with occasional rain and sleet,7.9,74,998.9,1004.2,1002.5,54,5.2,14.13,2,0.5,12.9,4.5,0,0,3.2,8.2,west northwest,11.8,west northwest,west northwest
+2023/4/9,5.6,"Rain, partly cloudy, partly sunny",Sunny then sometimes cloudy,6.2,68,1005,1010.4,1005,45,4.7,13.09,1,0.5,10.3,1.9,0,0,4.8,11,West,15.4,West,west northwest
+2023/4/10,9.9,Partially cloudy,Sunny then cloudy with occasional rain,9.1,74,1008.8,1014.2,1012.9,56,9,20.78,0,0,14.8,2.1,0,0,4.2,10,southwest,15.9,South-southwest,southwest
+2023/4/11,13.3,"Partly cloudy, partly sunny and partly rainy",rainy and sometimes cloudy,11.1,73,1006.2,1011.4,1007.1,59,4.2,14.58,0,0,17.4,6.8,0,0,5.3,9.7,southwest,16.2,southwest,southwest
+2023/4/12,9.6,Cloudy with occasional rain then clear,"Partly cloudy with occasional rain, accompanied by thunder",7.4,59,1001.6,1006.9,1002.1,24,7.3,18.06,18,1.5,15.1,5.7,0,0,6.6,13.1,West,22.3,South-southwest,West
+2023/4/13,10,Partly cloudy with occasional rain,Partly sunny after cloudy,5.6,46,1005.5,1010.8,1007.8,20,8.8,21.03,0,0,13.4,4,0,0,5.1,11.6,West,18,West,West
+2023/4/14,10.9,Partly rain after cloudy,Partially cloudy,9.4,71,1006.8,1012.1,1008.8,59,1.8,10.98,0,0,15,3.8,0,0,4.3,11,southwest,16.2,west southwest,southwest
+2023/4/15,7.8,partly cloudy,rain,6,58,1006.3,1011.7,1001.4,30,6.4,15.83,2.5,0.5,14.3,1.8,0,0,3.9,9.4,east southeast,12.5,east southeast,east
+2023/4/16,7.4,rainy and sometimes cloudy,Partly cloudy with occasional rain,9,86,987.5,992.7,987,71,0,3.45,20,2,12.3,3.9,0,0,5.4,12.1,West,18.2,West,West
+2023/4/17,5.1,Cloudy with occasional rain,Partly cloudy after clear skies,5.8,66,1003,1008.4,996.7,49,2.4,11.45,0,0,9.2,1.5,0,0,5.2,8.9,west northwest,14.8,West,west northwest
+2023/4/18,7.2,Sunny then sometimes cloudy,rainy and sometimes cloudy,6.7,66,1010.5,1015.9,1011,45,9.7,23.13,0,0,12.5,-0.7,0,0,2.7,7,southwest,10.1,west southwest,southwest
+2023/4/19,9.2,Cloudy with occasional rain,Partly sunny after cloudy,8.9,77,1004,1009.3,1006.7,57,2.4,12.63,11.5,1,12.4,6.6,0,0,3.6,7.5,west northwest,11.2,west northwest,West
+2023/4/20,11.8,partly cloudy,Cloudy with occasional rain,10,72,1000.6,1005.9,999.2,29,4.2,13.11,0,0,16.7,5.4,0,0,2.7,7.6,southwest,12.3,southwest,South-southwest
+2023/4/21,10.3,Partially cloudy,partly cloudy,4.8,38,999.5,1004.8,999.5,19,9.8,23.36,0,0,13.8,6.6,0,0,7.7,12.6,West,19.1,West,west northwest
+2023/4/22,7.6,Partially cloudy,"Clear, then rainy, partly cloudy, with sleet",5.1,50,1006.3,1011.6,1007.3,34,10.5,23.1,0,0,11.5,3.2,0,0,6.2,12.8,West,18.6,northwest,west northwest
+2023/4/23,7.2,Cloudy with occasional rain and sleet,fine weather,5,52,1011.1,1016.5,1014.6,24,6.1,15.28,1.5,1,11.8,3.5,0,0,5.8,12.7,West,20.1,West,west northwest
+2023/4/24,7.4,Cloudy with occasional rain,fine weather,5.2,52,1014.2,1019.7,1018.1,31,7,16.93,0,0,12,2.9,0,0,4.9,12.5,west northwest,18,west northwest,West
+2023/4/25,9.7,Partly cloudy after clear skies,Cloudy with occasional rain,5.6,48,1015.6,1021,1015,27,9.8,22.63,0,0,14.8,2.1,0,0,3.8,8.3,east southeast,13.4,east,east southeast
+2023/4/26,10.3,Partly cloudy after rain,"Partly cloudy, then sunny",10.9,86,1000.3,1005.6,1001.5,60,0.2,2.89,11,0.5,12.6,7.7,0,0,4.3,8.3,northwest,13.3,north northwest,east southeast
+2023/4/27,10.3,fine weather,Partly cloudy after clear skies,5.4,45,1009.2,1014.5,1005.9,23,13.4,27.1,0,0,14.2,5.6,0,0,6.4,11.6,West,17.7,West,West
+2023/4/28,11.3,Cloudy with occasional rain,partly cloudy,9.7,71,1013.2,1018.6,1017.4,47,6,15.35,0,0,15.6,5.6,0,0,3.8,8.4,southwest),12.9,southwest),southwest
+2023/4/29,12.9,Cloudy with occasional rain,rainy and sometimes cloudy,10,69,1007.1,1012.4,1004.3,41,5.2,18.07,1,0.5,19.3,6.4,0,0,2,4.5,west northwest,6.6,west northwest,south southeast
+2023/4/30,13.2,"Sunny after rain, sometimes cloudy",partly cloudy,11.4,77,995.3,1000.5,997.2,41,6.4,18.7,9.5,1,18.4,10.4,0,0,4.3,12.4,southwest,19.4,west southwest,west southwest
+2023/5/1,12.5,"Sunny then rainy, sometimes cloudy",Cloudy with occasional rain,9.9,69,1003.4,1008.6,1005,47,9,22.61,2,0.5,17.4,8,0,0,4.3,9.1,southwest,14.7,southwest,southwest
+2023/5/2,11.2,fine weather,Partly cloudy after clear skies,7.6,59,1014.7,1020.1,1013.6,30,12.4,27.54,0,0,16.6,6.3,0,0,4.5,9.5,west northwest,12.8,west northwest,west northwest
+2023/5/3,12.1,partly cloudy,Partially cloudy,9.1,64,1015.8,1021.1,1018.8,47,3.3,12.88,0,0,16.4,5.9,0,0,4.1,9.8,west southwest,14.6,southwest,southwest
+2023/5/4,13.9,Partly sunny after cloudy,partly cloudy,11.4,72,1010.4,1015.6,1013,51,4.3,16.87,0,0,19.4,8.3,0,0,3.4,8.2,southwest,13.1,southwest,southwest
+2023/5/5,15.1,Cloudy,partly cloudy rain,12.8,76,1005.8,1011,1007.4,55,3,10.1,4.5,0.5,18.6,10,0,0,2.2,6.3,west northwest,10.1,West,west northwest
+2023/5/6,11.4,rainy and sometimes cloudy,rainy and sometimes cloudy,12.8,94,1001.8,1007.1,1003.7,76,0,4.1,12,0.5,13.6,7.6,0,0,2.6,5.5,southeast,8.1,southeast,east southeast
+2023/5/7,9.4,partly cloudy,Partly rain after cloudy,8.6,73,1009.6,1014.9,1013.1,53,7.1,19.83,0,0,14.1,7,0,0,4,7,southeast,10.2,southeast,east southeast
+2023/5/8,7.4,cloudy after rain,Partly cloudy after clear skies,8.1,78,1007,1012.4,1010.3,58,1.1,9.25,2.5,0.5,10,5.4,0,0,2.8,6.8,east southeast,10.5,east southeast,east southeast
+2023/5/9,11.4,partly cloudy,Cloudy then sometimes sunny with thunder,10.5,78,1008.1,1013.4,1011.7,57,6.9,21.05,0,0,15.6,5.1,0,0,4.8,10,southwest,16.5,west southwest,southwest
+2023/5/10,12.3,"Partly sunny, cloudy after rain, accompanied by thunder",fine weather,8.7,62,1009.3,1014.6,1013.2,26,8.3,21.33,0,0,17.1,6.6,0,0,2.6,5.9,east southeast,8.5,east southeast,east northeast
+2023/5/11,9.5,partly cloudy,Sunny then cloudy with occasional rain,6.4,56,1013.9,1019.3,1017.2,36,11.3,23.59,0,0,15.7,3.4,0,0,3.7,8,northwest,10.8,northwest,northwest
+2023/5/12,10,Cloudy then sunny with a shower,fine weather,8.6,70,1016.4,1021.8,1020.2,51,6.5,20.77,0,0,16.1,3.4,0,0,2.4,5.1,south southeast,8.1,South,south southeast
+2023/5/13,11.2,partly cloudy,Partially cloudy,9,68,1014.9,1020.3,1018.3,36,7.8,22.27,0,0,16.9,4.6,0,0,1.6,3.7,south southeast,5.1,South-southwest,south southeast
+2023/5/14,11.8,"Sunny, then rainy, partly cloudy",rainy and sometimes cloudy,11.2,79,1010.3,1015.6,1012.8,57,7.9,21.41,0.5,0.5,16,5.4,0,0,1.9,4.9,south southeast,6.7,south southeast,North
+2023/5/15,15.1,Cloudy with occasional rain,partly cloudy rain,14.5,84,1007.3,1012.5,1011.5,73,0,9.35,3,1,18.1,12.8,0,0,3.3,5.7,east southeast,8.2,east southeast,east southeast
+2023/5/16,15.1,partly cloudy,partly cloudy,14.3,84,1007.5,1012.8,1010.9,67,9.3,25.95,0,0,19.2,12.2,0,0,2.2,5.6,south southeast,7.9,south southeast,south southeast
+2023/5/17,16.1,fine weather,partly cloudy,14.8,82,1005.2,1010.4,1007.7,60,10.7,25.19,0,0,21.4,11.3,0,0,2,5.9,southwest,8.4,southwest,south southeast
+2023/5/18,18.1,Partially cloudy,Cloudy,15.1,74,1006.4,1011.6,1010.1,45,11.5,26.39,0,0,24.3,13,0,0,2.7,7.3,southwest,11,southwest,west southwest
+2023/5/19,14.9,rainy and sometimes cloudy,Cloudy with occasional rain,14.6,87,1008.2,1013.4,1012.5,77,0,9.08,0,0,17.5,13,0,0,2.1,4.6,east,6.8,east,south southeast
+2023/5/20,13.6,partly cloudy,"Partly cloudy, then partly rain",11.8,77,1008.6,1013.8,1011.6,54,4.9,18.85,0,0,18.2,10.8,0,0,4.6,7.4,southeast,11.6,southeast,east southeast
+2023/5/21,12.7,rainy and sometimes cloudy,"Partly cloudy, then partly sunny",13.8,94,1000.8,1006,1003,84,0,3.05,4.5,0.5,15.2,10.1,0,0,3.5,6.9,east southeast,10,east southeast,east
+2023/5/22,14.3,Partially cloudy,partly cloudy,11.5,72,999,1004.2,1002.8,45,10,23.57,0,0,20.2,8.7,0,0,3.9,9.3,West,13.3,West,West
+2023/5/23,11.5,fine weather,partly cloudy,9.4,70,1002,1007.3,1005.7,50,9.5,22.3,0,0,16.2,6,0,0,2.8,5.8,south southeast,8.1,east southeast,east southeast
+2023/5/24,13.9,fine weather,fine weather,10.4,67,1006.6,1011.9,1009.5,45,14.1,29.63,0,0,20.6,7.8,0,0,3.1,6.5,west northwest,10,west northwest,northwest
+2023/5/25,15.4,fine weather,fine weather,11.2,66,1015.6,1020.9,1018,39,13.9,29.46,0,0,22.3,8,0,0,2.2,5,West,6.7,west northwest,West
+2023/5/26,15.9,Cloudy with occasional rain,Cloudy with occasional rain,12.4,71,1016.2,1021.5,1020.4,34,6.2,15.52,3.5,1,21.7,9.8,0,0,2.6,6.4,southwest,10.9,west southwest,south southeast
+2023/5/27,18,Partially cloudy,Cloudy,14.9,73,1015.5,1020.7,1019.6,53,9.4,24.72,0,0,22.3,14.9,0,0,3.2,7.8,southwest,11.4,west southwest,southwest
+2023/5/28,16,partly cloudy rain,Cloudy with occasional rain,16.4,90,1008.8,1014.1,1009.8,70,0,5.97,3,0.5,18.1,13.8,0,0,1.9,4.5,West,6.6,west southwest,south southeast
+2023/5/29,16.8,Cloudy then sunny with a shower,Sunny then cloudy with occasional rain,14.8,79,1003.9,1009,1007,52,7.5,22.26,0,0,22.4,12.7,0,0,3.7,7.3,west northwest,9.7,west northwest,West
+2023/5/30,13.9,Cloudy with occasional rain and thunder,fine weather,11.1,70,1003.5,1008.8,1006.8,47,7.9,23.34,0,0,19.7,9.2,0,0,3.8,8.5,northwest,13.2,northwest,west northwest
+2023/5/31,14.5,fine weather,Partly cloudy after clear skies,10,64,1005.5,1010.7,1009.3,32,13.5,30.15,0,0,21.4,7.9,0,0,3.7,9,West,13.6,West,West
+2023/6/1,17.1,fine weather,partly cloudy,10.8,58,1004.2,1009.4,1006.2,27,13.6,29.12,0,0,24.2,10.1,0,0,3.3,7.7,southwest,12,southwest,southwest
+2023/6/2,18.2,"Partly cloudy, then rain",Partly cloudy after heavy rain,16.5,79,994.4,999.5,990.3,60,1.9,11.95,36,5.5,22.9,14.8,0,0,2.5,7.1,northwest,10.2,northwest,southeast
+2023/6/3,15.9,"Partly cloudy, then sunny","Sunny then rainy, sometimes cloudy",14.3,79,991.4,996.5,991.5,57,3,14.85,0,0,19.6,10.9,0,0,3.9,8.7,west northwest,12.6,West,west northwest
+2023/6/4,15.2,"Partly sunny, cloudy after rain, accompanied by thunder","Partly cloudy, then sunny",12.2,72,996,1001.1,998.7,48,5.1,18.46,0,0,21.4,10.7,0,0,4.3,11.3,West,15.8,West,West
+2023/6/5,17,sunny shower,partly cloudy,11.9,64,1000.5,1005.7,1003.4,32,11,27.38,0,0,22.7,10.6,0,0,4.2,10.9,West,15.6,West,West
+2023/6/6,17.8,Cloudy with occasional rain,Cloudy with occasional rain and thunder,14.8,73,1001.8,1006.9,1005.6,60,4,13.45,0,0,21.9,12.4,0,0,2.9,6.7,southwest,10.8,southwest,southwest
+2023/6/7,16.5,Partly cloudy with thunder,"Partly cloudy, then sunny with fog",16.8,90,1002.9,1008.1,1005.5,74,0,5.01,26.5,4.5,18.3,15.1,0,0,1.8,4.3,northwest,7.5,west northwest,northeast
+2023/6/8,18.7,fine weather,Partly rain after cloudy,16.7,79,1007.6,1012.7,1011.3,61,12.7,28.95,0,0,23.2,12.9,0,0,3.1,5.9,south southeast,9.1,east,south southeast
+2023/6/9,16.9,rain,rain,17.3,90,1003.8,1009,1007.3,76,0,6.56,21,2,19.3,14.5,0,0,6.3,10.6,east southeast,17,southeast,east southeast
+2023/6/10,17,Cloudy with occasional rain,partly cloudy,17.4,90,1007,1012.2,1008.6,76,3,15.53,3,0.5,20.5,14.6,0,0,3.1,8.1,east southeast,13.3,southeast,south southeast
+2023/6/11,18.3,Partly sunny after cloudy,Cloudy,17.8,85,1009,1014.2,1012.5,69,4.9,19.68,0,0,22.6,15.7,0,0,2.6,6.7,east southeast,10.4,east southeast,east
+2023/6/12,19,"Partly cloudy, then occasional rain",Cloudy with occasional rain,18.3,84,1004.7,1009.9,1007.2,62,3.1,16.02,0,0,24.9,15.4,0,0,3.3,7.1,east,10.9,southeast,east southeast
+2023/6/13,17.9,Cloudy with occasional rain,Cloudy with occasional rain,18.1,88,1000.7,1005.8,1004.1,76,0,8.08,0,0,20.6,16.8,0,0,3.2,6.2,east,9.3,east southeast,east
+2023/6/14,19.4,Partially cloudy,partly cloudy,19.1,85,1003,1008.1,1006.3,64,10.8,28.09,0,0,24.6,16.2,0,0,1.8,4.6,south southeast,6.3,South,south southeast
+2023/6/15,18,Cloudy with occasional rain,partly cloudy,18.4,90,1004.2,1009.3,1008.3,78,0.3,10.64,0,0,20.6,16.6,0,0,1.5,3.9,south southeast,5.6,south southeast,West
+2023/6/16,19.4,Partly sunny after cloudy,partly cloudy,18.8,84,1003,1008.2,1006.8,69,3.2,13.44,0,0,22.6,17.1,0,0,1.9,4.5,west northwest,7,West,west northwest
+2023/6/17,21.4,partly cloudy,partly cloudy rain,19.6,77,1001.6,1006.7,1003.7,58,4.5,15.57,1.5,1,25.9,18.3,0,0,4.7,9.5,west southwest,14.1,west southwest,west southwest
+2023/6/18,19.6,Partially cloudy,fine weather,14.2,64,1000.3,1005.4,1003.3,39,10.3,23.63,0,0,24.3,14.9,0,0,4.6,9.3,northwest,14.1,northwest,north northwest
+2023/6/19,18.2,fine weather,fine weather,12.8,63,1002.7,1007.9,1006.7,40,14,31.04,0,0,24,13.5,0,0,4,7.5,northwest,11.3,northwest,north northwest
+2023/6/20,18.2,fine weather,Partly cloudy after clear skies,14,68,1006.1,1011.2,1009.7,43,14.3,29.47,0,0,24.2,11.3,0,0,2.6,7.7,West,10.5,West,west southwest
+2023/6/21,20.6,partly cloudy,partly cloudy,13.7,59,1006.9,1012,1010.2,34,11.6,26.95,0,0,27.4,13.4,0,0,2.2,6.1,east,7.8,east southeast,south southeast
+2023/6/22,19.5,partly cloudy,Cloudy with occasional rain,17.2,76,1004.6,1009.7,1009,61,2.5,13.35,0,0,22.8,16.2,0,0,4.5,8,east,12.9,east,east
+2023/6/23,17,rainy and sometimes cloudy,rainy and sometimes cloudy,17.6,91,1005.1,1010.3,1008.2,84,0,5.18,16.5,1,18.9,15.1,0,0,5.5,8.7,east,13.1,east,east
+2023/6/24,17.3,Partly sunny after cloudy,"Partly cloudy, then partly rain",17.2,87,1009.7,1014.9,1012.8,76,1.1,11.34,7,1.5,20.4,15,0,0,3.3,6.6,east,9,east southeast,east southeast
+2023/6/25,19.2,Partially cloudy,clear with fog,18.4,83,1011,1016.2,1015,66,6.2,20.9,0,0,23.6,16.8,0,0,1.6,3.8,south southeast,6.3,south southeast,south southeast
+2023/6/26,20.1,"Partly cloudy, then sunny",partly cloudy,19.8,85,1010.1,1015.3,1013.8,64,9.2,24.96,0,0,25.2,15.7,0,0,1.9,4.4,south southeast,6,south southeast,south southeast
+2023/6/27,20.9,Cloudy with occasional rain,rainy and sometimes cloudy,20.5,84,1007.4,1012.5,1009,57,7.4,23.64,9.5,2.5,26.1,16.6,0,0,1.9,3.9,east southeast,5.6,east southeast,south southeast
